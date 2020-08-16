@@ -1,0 +1,29 @@
+{shop_url}
+
+Ei,
+
+Has rebut una nova sol·licitud de devolució a {shop_name}.
+
+Return Details
+
+Comanda: {order_name} Feta a {date}
+
+Client: {firstname} {lastname}, ({email})
+
+Referència	Producte	Quantitat   {items}
+
+Adreça d'entrega
+
+{delivery_block_html}
+
+Adreça de facturació
+
+{invoice_block_html}
+
+Missatge del client:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

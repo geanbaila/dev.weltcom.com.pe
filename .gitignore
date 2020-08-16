@@ -1,0 +1,4 @@
+var/cache/dev/*
+var/cache/prod/*
+var/sessions/*
+var/logs/*

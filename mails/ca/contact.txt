@@ -1,0 +1,17 @@
+{shop_url}
+
+Missatge d'un client de {shop_name}
+
+Customer Email Address: {email}
+
+Order ID #:  {order_name}
+
+Fitxer adjuntat: {attached_file}
+
+Missatge del client:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

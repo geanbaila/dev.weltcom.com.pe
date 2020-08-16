@@ -1,0 +1,27 @@
+{shop_url}
+
+Kaixo {firstname} {lastname},
+
+Eskerrikasko zure bezero kontua irekitzeagatik {shop_name}-(e)n.
+
+Your login details on {shop_name}
+
+Hemen daude zure sarrera xehetasunak:
+
+Email address: {email}
+
+Segurtasun Aholku Garrantzitxuak:
+
+1. Beti eduki zure kontuaren xehetasunak seguru.
+
+2. Inoiz ere ez eman zure kontuaren xehetasunak inorri.
+
+3. Aldatu zure pasahitza aldizka.
+
+4. Susmatzen baduzu norbait zure kontua ilegalki erabiltzen ari dela, mesedez jakinarazi iezaguzu ahalik eta lehen.
+
+Orain eskaerak egin ditzazkezu gure dendan: [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

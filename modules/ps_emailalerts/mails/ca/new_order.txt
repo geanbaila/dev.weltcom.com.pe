@@ -1,0 +1,41 @@
+{shop_url}
+
+Enhorabona!
+
+A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})
+
+Detalls de la comanda
+
+Comanda: {order_name} Feta a {date}
+
+Pagament: {payment}
+
+Referència	Producte	Preu unitari	Quantitat	Preu total   {items}
+Articles	{total_products}
+Descomptes	{total_discounts}
+Embolicat per a regal	{total_wrapping}
+Lliurament	{total_shipping}
+Including total tax	{total_tax_paid}
+Total pagat	{total_paid}
+
+Transportista
+
+Empresa de transport {carrier}
+
+Pagament: {payment}
+
+Adreça d'entrega
+
+{delivery_block_html}
+
+Adreça de facturació
+
+{invoice_block_html}
+
+Missatge del client:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

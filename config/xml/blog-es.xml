@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#" xmlns:product="http://ogp.me/ns/product#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>¿Cómo usar los botones para convertir visitas en ventas en tu eCommerce? [+Ejemplos]</title>
+    <link>https://www.prestashop.com/es/blog/como-usar-botones-en-ecommerce</link>
+    <description>¿Conoces todas las ventajas que tiene usar botones de llamada a la acción de manera estratégica en tu tienda online?</description>
+     <pubDate>Wed, 12 Aug 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-usar-botones-en-ecommerce</guid>
+  </item>
+  <item>
+    <title>5 Pasos para saber cómo montar rápidamente tu primer eCommerce</title>
+    <link>https://www.prestashop.com/es/blog/montar-ecommerce-rapidamente</link>
+    <description>¿Quieres empezar a vender online lo antes posible a através de Internet?</description>
+     <pubDate>Mon, 10 Aug 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Arina Drucioc</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/montar-ecommerce-rapidamente</guid>
+  </item>
+  <item>
+    <title>5 Ejemplos de fichas de producto que te ayudarán a mejorar tus conversiones</title>
+    <link>https://www.prestashop.com/es/blog/ejemplos-fichas-de-producto</link>
+    <description>¿Te gustaría saber cómo crear la página de producto perfecta para tu eCommerce, pero no te vienen ideas?</description>
+     <pubDate>Wed, 05 Aug 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Miguel de Pineda</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/ejemplos-fichas-de-producto</guid>
+  </item>
+  <item>
+    <title>5 Módulos PrestaShop para aumentar tus ventas durante la &amp;quot;vuelta al cole&amp;quot;</title>
+    <link>https://www.prestashop.com/es/blog/modulos-vuelta-al-cole</link>
+    <description>¿Tienes ya preparado tu eCommerce para la vuelta al cole? ¡Está a pocas semanas, así que equípate bien con estos módulos PrestaShop que hoy te recomiendo!</description>
+     <pubDate>Mon, 03 Aug 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-vuelta-al-cole</guid>
+  </item>
+  <item>
+    <title>Krack Online: el caso de éxito de Omnicanalidad en esta zapatería online</title>
+    <link>https://www.prestashop.com/es/blog/krack-zapaterias-online</link>
+    <description>¿Conoces la zapatería &quot;Krack Online&quot; y su trayectoria en el sector de la la venta de calzado?</description>
+     <pubDate>Wed, 29 Jul 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/krack-zapaterias-online</guid>
+  </item>
+  <item>
+    <title>Optimización PHP en PrestaShop 1.7 ¡aumenta el rendimiento de tu eCommerce!</title>
+    <link>https://www.prestashop.com/es/blog/php-prestashop</link>
+    <description>¿Sabes cómo optimizar el PHP de tu tienda PrestaShop de manera profesional?</description>
+     <pubDate>Mon, 27 Jul 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Alejandro Ramos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/php-prestashop</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Email Marketing y cómo aplicarlo a tu tienda online?</title>
+    <link>https://www.prestashop.com/es/blog/consejos-infalibles-de-marketing-por-email-para-e-commerce</link>
+    <description>¿Sabes qué es el email marketing y lo eficaz que resulta esta herramienta dentro de tu estrategia corporativa?</description>
+     <pubDate>Wed, 22 Jul 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/consejos-infalibles-de-marketing-por-email-para-e-commerce</guid>
+  </item>
+  <item>
+    <title>5 Módulos para mejorar la seguridad online en tu tienda PrestaShop</title>
+    <link>https://www.prestashop.com/es/blog/modulos-seguridad-online</link>
+    <description>¿Tienes una tienda online en PrestaShop y necesitas mejorar la seguridad Online de tu negocio?</description>
+     <pubDate>Wed, 15 Jul 2020 18:00:12 +0200</pubDate>
+ <dc:creator>Jose Facchin</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-seguridad-online</guid>
+  </item>
+  <item>
+    <title>¿Cómo optimizar los anuncios de tus campañas en Google Ads para vender más?</title>
+    <link>https://www.prestashop.com/es/blog/optimizar-anuncios-google-ads</link>
+    <description>¿Quieres optimizar tus anuncios de Google Ads de una manera más profesional?</description>
+     <pubDate>Mon, 13 Jul 2020 15:55:45 +0200</pubDate>
+ <dc:creator>Hao Xu</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/optimizar-anuncios-google-ads</guid>
+  </item>
+  <item>
+    <title>Pharmacius: el caso de éxito de cómo hacerse un hueco en el sector de las farmacias online</title>
+    <link>https://www.prestashop.com/es/blog/pharmacius</link>
+    <description>Desde Prestashop estamos identificando proyectos que consideramos casos de éxito basados en muchos y variados factores como los niveles de facturación alcanzados, la escalabilidad, la internacional</description>
+     <pubDate>Mon, 06 Jul 2020 14:00:19 +0200</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/pharmacius</guid>
+  </item>
+  </channel>
+</rss>

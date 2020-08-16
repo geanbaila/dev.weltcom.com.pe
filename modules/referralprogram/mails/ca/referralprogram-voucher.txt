@@ -1,0 +1,14 @@
+{shop_url}
+
+Hola {firstname} {lastname},
+
+Sponsorship Program
+
+Hem creat un cupó en nom vostre per enviar a un amic.
+Aquest és el codi del vostre cupó: {voucher_num}, amb un import de {voucher_num}
+
+Només cal que copieu/enganxeu aquest codi mentre feu el pagament de la vostra nova comanda.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

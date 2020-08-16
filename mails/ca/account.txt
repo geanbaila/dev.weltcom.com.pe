@@ -1,0 +1,27 @@
+{shop_url}
+
+Hola {firstname} {lastname},
+
+Gràcies per haver creat un compte de client a {shop_name}.
+
+Your login details on {shop_name}
+
+Aquí hi ha les vostres dades d'accés:
+
+Email address: {email}
+
+Aspectes importants de seguretat:
+
+1. Manteniu segurs els vostres detalls del compte.
+
+2. Mai no revelarem a ningú les vostres dades d'accés,
+
+3. Canvieu la vostra contrasenya regularment.
+
+4. Si sospiteu que algú utilitza el vostre compte sense permís, si us plau notifiqueu-nos-ho immediatament.
+
+Ara podeu fer comandes a la nostra botiga: [{shop_name}]({shop_url})
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

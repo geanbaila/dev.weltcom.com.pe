@@ -1,0 +1,14 @@
+{shop_url}
+
+Ola {firstname} {lastname},
+
+Sponsorship Program
+
+Creamos un cupón ao teu nome por ternos recomendado a unha amiga/o.
+Velaquí o código do teu cupón: {voucher_num}, cun importe de {voucher_num}
+
+Simplemente copia/pega este código durante o proceso de pagamento da túa próxima encomenda.
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

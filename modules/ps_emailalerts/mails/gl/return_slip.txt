@@ -1,0 +1,29 @@
+{shop_url}
+
+Ola,
+
+Recibiches unha nova solicitude de devolución para {shop_name}.
+
+Return Details
+
+Encomenda: {order_name} Realizada o {date}
+
+Clienta: {firstname} {lastname}, ({email})
+
+Referencia	Produto	Cantidade   {items}
+
+Enderezo de entrega
+
+{delivery_block_html}
+
+Enderezo de facturación
+
+{invoice_block_html}
+
+Mensaxe da clienta:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

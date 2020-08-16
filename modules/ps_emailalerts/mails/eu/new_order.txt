@@ -1,0 +1,41 @@
+{shop_url}
+
+Zorionak!
+
+A new order was placed on {shop_name} by the following customer: {firstname} {lastname} ({email})
+
+Eskaeraren xehetasunak
+
+Eskaera: {order_name} Placed on {date}
+
+Ordainketa: {payment}
+
+Erreferentzia	Produktua	Prezioa unitateko	Kopurua	Guztira   {items}
+Produktuak	{total_products}
+Deskontuak	{total_discounts}
+Opari gisa prestatu	{total_wrapping}
+Bidalketa	{total_shipping}
+Including total tax	{total_tax_paid}
+Ordaindutakoa guztira	{total_paid}
+
+Carrier
+
+Garraiolaria: {carrier}
+
+Ordainketa: {payment}
+
+Bidalketarako helbidea
+
+{delivery_block_html}
+
+Fakturazio helbidea
+
+{invoice_block_html}
+
+Customer message:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)

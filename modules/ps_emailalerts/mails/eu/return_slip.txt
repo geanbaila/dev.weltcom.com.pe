@@ -1,0 +1,29 @@
+{shop_url}
+
+Kaixo,
+
+You have received a new return request for {shop_name}.
+
+Return Details
+
+Eskaera: {order_name} Placed on {date}
+
+Bezeroa: {firstname} {lastname}, ({email})
+
+Erreferentzia	Produktua	Kopurua   {items}
+
+Bidalketarako helbidea
+
+{delivery_block_html}
+
+Fakturazio helbidea
+
+{invoice_block_html}
+
+Customer message:
+
+{message}
+
+[{shop_name}]({shop_url})
+
+Powered by [PrestaShop](https://www.prestashop.com/?utm_source=marchandprestashop&utm_medium=e-mail=utm_campaign=footer_1-7)
