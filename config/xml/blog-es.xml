@@ -6,6 +6,14 @@
     <language>es</language>
      <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
+    <title>6 Mejores módulos para tu negocio de subastas online en PrestaShop </title>
+    <link>https://www.prestashop.com/es/blog/modulos-subastas-online</link>
+    <description>¿Estás pensando en montar un eCommerce de subastas online?</description>
+     <pubDate>Mon, 17 Aug 2020 06:06:00 +0200</pubDate>
+ <dc:creator>Mariela Quiroga</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/modulos-subastas-online</guid>
+  </item>
+  <item>
     <title>¿Cómo usar los botones para convertir visitas en ventas en tu eCommerce? [+Ejemplos]</title>
     <link>https://www.prestashop.com/es/blog/como-usar-botones-en-ecommerce</link>
     <description>¿Conoces todas las ventajas que tiene usar botones de llamada a la acción de manera estratégica en tu tienda online?</description>
@@ -76,14 +84,6 @@
      <pubDate>Mon, 13 Jul 2020 15:55:45 +0200</pubDate>
  <dc:creator>Hao Xu</dc:creator>
  <guid isPermaLink="false">https://www.prestashop.com/es/blog/optimizar-anuncios-google-ads</guid>
-  </item>
-  <item>
-    <title>Pharmacius: el caso de éxito de cómo hacerse un hueco en el sector de las farmacias online</title>
-    <link>https://www.prestashop.com/es/blog/pharmacius</link>
-    <description>Desde Prestashop estamos identificando proyectos que consideramos casos de éxito basados en muchos y variados factores como los niveles de facturación alcanzados, la escalabilidad, la internacional</description>
-     <pubDate>Mon, 06 Jul 2020 14:00:19 +0200</pubDate>
- <dc:creator>Jorge González Marcos</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/es/blog/pharmacius</guid>
   </item>
   </channel>
 </rss>

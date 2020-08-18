@@ -1,0 +1,1 @@
+mi frase para displayProductAdditionalInfo.tpl : {$frase}

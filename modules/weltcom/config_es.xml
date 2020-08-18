@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>welcom</name>
+    <displayName><![CDATA[Módulo Weltcom]]></displayName>
+    <version><![CDATA[0.0.1]]></version>
+    <description><![CDATA[Funcionalidades para la página web.]]></description>
+    <author><![CDATA[Gean Baila]]></author>
+    <tab><![CDATA[front_office_features]]></tab>
+    <is_configurable></is_configurable>
+    <need_instance></need_instance>
+	<limited_countries></limited_countries>
+</module>
