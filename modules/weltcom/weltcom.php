@@ -18,7 +18,11 @@ class Weltcom extends Module{
 	}
 
 	public function install(){
-		if(!parent::install() || !Configuration::updateValue("WELTCOM_URL","https://weltcom.com") || !$this->registerHook('displayProductAdditionalInfo')){
+		if(!parent::install() || 
+			!Configuration::updateValue("WELTCOM_URL","https://weltcom.com") || 
+			!$this->registerHook('displayProductAdditionalInfo') ||
+			!$this->registerHook('displayBanner')
+		){
 			return false;
 		}
 		return true;
@@ -40,7 +44,7 @@ class Weltcom extends Module{
 			$this->smarty->assign("isSave",true);
 		}
 		$url = Configuration::get("WELTCOM_URL");
-		$this->smarty->assign("urlValue",$url);
+		$this->smarty->assign("URL",$url);
 		return $this->display(__FILE__,"configure.tpl");
 	}
 
@@ -48,6 +52,12 @@ class Weltcom extends Module{
 		//return "he aquí mi primer hook ;)";
 		$this->context->smarty->assign("frase", "he aquí mi primer hook ;)");
 		return $this->display(__FILE__, 'displayProductAdditionalInfo.tpl');
+	}
+
+	public function hookDisplayBanner($params){
+		$url = Configuration::get("WELTCOM_URL");
+		$this->context->smarty->assign("URL", $url);
+		return $this->display(__FILE__, "displayBanner.tpl");
 	}
 
 

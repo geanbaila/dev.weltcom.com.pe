@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+    <name>psgdpr</name>
+    <displayName><![CDATA[Cumplimiento del RGPD de PrestaShop]]></displayName>
+    <version><![CDATA[1.2.0]]></version>
+    <description><![CDATA[Cumple las principales obligaciones recogidas en el Reglamento general de protecci&oacute;n de datos de la Uni&oacute;n Europea gracias a este m&oacute;dulo desarrollado por PrestaShop.]]></description>
+    <author><![CDATA[PrestaShop]]></author>
+    <tab><![CDATA[administration]]></tab>
+	<confirmUninstall><![CDATA[¿Seguro que quieres desinstalar este módulo?]]></confirmUninstall>
+    <is_configurable>1</is_configurable>
+    <need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>

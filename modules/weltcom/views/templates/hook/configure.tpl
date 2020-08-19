@@ -9,7 +9,7 @@
 <form action="" method="post">
 	<div class="form-group">
 		<label>URL</label>
-		<input type="text" name="txtUrl" class="form-control" value="{$urlValue}">
+		<input type="text" name="txtUrl" class="form-control" value="{$URL}">
 	</div>
 	<button type="submit" name="submitWeltcom" class="btn btn-primary">Guardar</button>
 </form>

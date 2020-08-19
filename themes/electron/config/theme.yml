@@ -1,0 +1,218 @@
+name: electron
+display_name: Electron for Weltcom
+version: 1.0.0
+author:
+  name: "Gean Baila"
+  email: "geanbaila@gmail.com"
+  url: "http://www.prestashop.com"
+
+meta:
+  compatibility:
+      from: 1.7.0.0
+      to: ~
+
+  available_layouts:
+    layout-full-width:
+      name: Full Width
+      description: No side columns, ideal for distraction-free pages such as product pages.
+    layout-both-columns:
+      name: Three Columns
+      description: One large central column and 2 side columns.
+    layout-left-column:
+      name: Two Columns, small left column
+      description: Two columns with a small left column
+    layout-right-column:
+      name: Two Columns, small right column
+      description: Two columns with a small right column
+
+assets:
+  # If you're using this theme as child and you want to load
+  # the parent theme assets, uncomment this line.
+  use_parent_assets: true
+
+  # The following lines are showing how to load assets in your page
+  # Uncomment and change value to start loading css or js files
+  css:
+    all:
+      - id: product
+        path: assets/css/product.css
+        priority: 1
+        media: all
+      - id: font-awesome
+        path: assets/vendor/font-awesome/css/fontawesome-all.min.css
+        priority: 2
+        media: all
+      - id: font-electro
+        path: assets/css/font-electro.css
+        priority: 3
+        media: all
+      - id: animate
+        path: assets/vendor/animate.css/animate.min.css
+        priority: 4
+        media: all
+      - id: hs-megamenu
+        path: assets/vendor/hs-megamenu/src/hs.megamenu.css
+        priority: 5
+        media: all
+      - id: malihu-custom-scrollbar-plugin
+        path: assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css
+        priority: 6
+        media: all
+      - id: fancybox
+        path: assets/vendor/fancybox/jquery.fancybox.css
+        priority: 7
+        media: all
+      - id: slick-carousel
+        path: assets/vendor/slick-carousel/slick/slick.css
+        priority: 8
+        media: all
+      - id: bootstrap-select
+        path: assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css
+        priority: 9
+        media: all
+
+        
+
+  js:
+    all:
+      - id: jquery
+        path: assets/vendor/jquery/dist/jquery.min.js
+      - id: jquery-migrate
+        path: assets/vendor/jquery-migrate/dist/jquery-migrate.min.js
+      - id: popper
+        path: assets/vendor/popper.js/dist/umd/popper.min.js
+      - id: bootstrap
+        path: assets/vendor/bootstrap/bootstrap.min.js
+      - id: appear
+        path: assets/vendor/appear.js
+      - id: jquery-countdown
+        path: assets/vendor/jquery.countdown.min.js
+      - id: hs-megamenu
+        path: assets/vendor/hs-megamenu/src/hs.megamenu.js
+      - id: svg-injector
+        path: assets/vendor/svg-injector/dist/svg-injector.min.js
+      - id: malihu-custom-scrollbar-plugin
+        path: assets/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js
+      - id: jquery-validation
+        path: assets/vendor/jquery-validation/dist/jquery.validate.min.js
+      - id: fancybox
+        path: assets/vendor/fancybox/jquery.fancybox.min.js
+      - id: typed
+        path: assets/vendor/typed.js/lib/typed.min.js
+      - id: slick-carousel
+        path: assets/vendor/slick-carousel/slick/slick.js
+      - id: bootstrap-select
+        path: assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js
+      - id: hs-core
+        path: assets/js/hs.core.js
+      - id: hs-countdown
+        path: assets/js/components/hs.countdown.js
+      - id: hs-header
+        path: assets/js/components/hs.header.js
+      - id: hs-hamburgers
+        path: assets/js/components/hs.hamburgers.js
+      - id: hs-unfold
+        path: assets/js/components/hs.unfold.js
+      - id: hs-focus-state
+        path: assets/js/components/hs.focus-state.js
+      - id: hs-malihu-scrollbar
+        path: assets/js/components/hs.malihu-scrollbar.js
+      - id: hs-validation
+        path: assets/js/components/hs.validation.js
+      - id: hs-fancybox
+        path: assets/js/components/hs.fancybox.js
+      - id: hs-onscroll-animation
+        path: assets/js/components/hs.onscroll-animation.js
+      - id: hs-slick-carousel
+        path: assets/js/components/hs.slick-carousel.js
+      - id: hs-show-animation
+        path: assets/js/components/hs.show-animation.js
+      - id: hs-svg-injector
+        path: assets/js/components/hs.svg-injector.js
+      - id: hs-go-to
+        path: assets/js/components/hs.go-to.js
+      - id: hs-selectpicker
+        path: assets/js/components/hs.selectpicker.js
+
+global_settings:
+  configuration:
+    PS_IMAGE_QUALITY: png
+  modules:
+   to_enable:
+     - ps_linklist
+  hooks:
+    modules_to_hook:
+      displayNav1:
+        - ps_contactinfo
+      displayNav2:
+        - ps_languageselector
+        - ps_currencyselector
+        - ps_customersignin
+        - ps_shoppingcart
+      displayTop:
+        - ps_mainmenu
+        - ps_searchbar
+      displayHome:
+        - ps_imageslider
+        - ps_featuredproducts
+        - ps_banner
+        - ps_customtext
+      displayFooterBefore:
+        - ps_emailsubscription
+        - ps_socialfollow
+      displayFooter:
+        - ps_linklist
+        - ps_customeraccountlinks
+        - ps_contactinfo
+      displayLeftColumn:
+        - ps_categorytree
+        - ps_facetedsearch
+      displaySearch:
+        - ps_searchbar
+      displayProductAdditionalInfo:
+        - ps_sharebuttons
+      displayReassurance:
+        - blockreassurance
+      displayOrderConfirmation2:
+        - ps_featuredproducts
+      displayCrossSellingShoppingCart:
+        - ps_featuredproducts
+
+  image_types:
+    cart_default:
+      width: 125
+      height: 125
+      scope: [products]
+    small_default:
+      width: 98
+      height: 98
+      scope: [products, categories, manufacturers, suppliers]
+    medium_default:
+      width: 452
+      height: 452
+      scope: [products, manufacturers, suppliers]
+    home_default:
+      width: 250
+      height: 250
+      scope: [products]
+    large_default:
+      width: 800
+      height: 800
+      scope: [products, manufacturers, suppliers]
+    category_default:
+      width: 141
+      height: 180
+      scope: [categories]
+    stores_default:
+      width: 170
+      height: 115
+      scope: [stores]
+
+theme_settings:
+  default_layout: layout-full-width
+  layouts:
+    category: layout-left-column
+    best-sales: layout-left-column
+    new-products: layout-left-column
+    prices-drop: layout-left-column
+    contact: layout-left-column
