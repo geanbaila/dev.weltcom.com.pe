@@ -38,7 +38,7 @@
             {hook h='displayNav1'}
           </div>
           <div class="col-md-7 right-nav">
-            {hook h='displayNav2'}
+            
           </div>
         </div>
         <div class="hidden-md-up text-sm-center mobile">

@@ -360,9 +360,9 @@
                                             <!-- End Input -->
                                         </li>
                                         <!-- End Search -->
-                                        <li class="col d-none d-xl-block"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/compare.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
-                                        <li class="col d-none d-xl-block"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/wishlist.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
-                                        <li class="col d-xl-none px-2 px-sm-3"><a href="https://transvelo.github.io/electro-html/2.0/html/shop/my-account.html" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
+                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
+                                        <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
+                                        <li class="col d-xl-none px-2 px-sm-3"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
                                         <li class="col pr-xl-0 px-2 px-sm-3 d-xl-none">
                                             <a href="{$STORE_URL}?controller=cart&action=show" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
@@ -388,7 +388,9 @@
                                                 <span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
                                                 <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3"></span></a>
                                             </div>
-
+                                        </li>
+                                        <li>
+                                            {hook h='displayNav2'}
                                         </li>
                                     </ul>
                                 </div>

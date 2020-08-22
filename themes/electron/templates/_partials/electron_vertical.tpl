@@ -338,19 +338,19 @@
 
                                                                     <!-- Home-v2 -->
                                                                     <li class="hs-has-sub-menu">
-                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="home-v2.html">Home-v2</a>
+                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="#">Home-v2</a>
                                                                     </li>
                                                                     <!-- End Home-v2 -->
 
                                                                     <!-- Home-v3 -->
                                                                     <li class="hs-has-sub-menu">
-                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="home-v3.html">Home-v3</a>
+                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="#">Home-v3</a>
                                                                     </li>
                                                                     <!-- End Home-v3 -->
 
                                                                     <!-- Home-v4 -->
                                                                     <li class="hs-has-sub-menu">
-                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="home-v4.html">Home-v4</a>
+                                                                        <a class="nav-link u-header__sub-menu-nav-link " href="#">Home-v4</a>
                                                                     </li>
                                                                     <!-- End Home-v4 -->
                                                                 </ul>
@@ -388,77 +388,40 @@
                                             <div class="hs-mega-menu w-100 u-header__sub-menu" aria-labelledby="homeMegaMenu">
                                                 <div class="row u-header__mega-menu-wrapper">
                                                     <div class="col-md-3">
-                                                        <span class="u-header__sub-menu-title">Home & Static Pages</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group">
-                                                            <li><a href="index.html" class="nav-link u-header__sub-menu-nav-link">Home v1</a></li>
-                                                            <li><a href="home-v2.html" class="nav-link u-header__sub-menu-nav-link">Home v2</a></li>
-                                                            <li><a href="home-v3.html" class="nav-link u-header__sub-menu-nav-link">Home v3</a></li>
-                                                            <li><a href="home-v3-full-color-bg.html" class="nav-link u-header__sub-menu-nav-link">Home v3.1</a></li>
-                                                            <li><a href="home-v4.html" class="nav-link u-header__sub-menu-nav-link">Home v4</a></li>
-                                                            <li><a href="home-v5.html" class="nav-link u-header__sub-menu-nav-link">Home v5</a></li>
-                                                            <li><a href="home-v6.html" class="nav-link u-header__sub-menu-nav-link">Home v6</a></li>
-                                                            <li><a href="home-v7.html" class="nav-link u-header__sub-menu-nav-link">Home v7</a></li>
-                                                            <li><a href="about.html" class="nav-link u-header__sub-menu-nav-link">About</a></li>
-                                                            <li><a href="contact-v1.html" class="nav-link u-header__sub-menu-nav-link">Contact v1</a></li>
-                                                            <li><a href="contact-v2.html" class="nav-link u-header__sub-menu-nav-link">Contact v2</a></li>
-                                                            <li><a href="faq.html" class="nav-link u-header__sub-menu-nav-link">FAQ</a></li>
-                                                            <li><a href="store-directory.html" class="nav-link u-header__sub-menu-nav-link">Store Directory</a></li>
-                                                            <li><a href="terms-and-conditions.html" class="nav-link u-header__sub-menu-nav-link">Terms and Conditions</a></li>
-                                                            <li><a href="404.html" class="nav-link u-header__sub-menu-nav-link">404</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-md-3">
-                                                        <span class="u-header__sub-menu-title">Shop Pages</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group mb-3">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid.html" class="nav-link u-header__sub-menu-nav-link">Shop Grid</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-grid-extended.html" class="nav-link u-header__sub-menu-nav-link">Shop Grid Extended</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view.html" class="nav-link u-header__sub-menu-nav-link">Shop List View</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-list-view-small.html" class="nav-link u-header__sub-menu-nav-link">Shop List View Small</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-left-sidebar.html" class="nav-link u-header__sub-menu-nav-link">Shop Left Sidebar</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-full-width.html" class="nav-link u-header__sub-menu-nav-link">Shop Full width</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-right-sidebar.html" class="nav-link u-header__sub-menu-nav-link">Shop Right Sidebar</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
+                                                            
                                                         </ul>
-                                                        <span class="u-header__sub-menu-title">Product Categories</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-4-column-sidebar.html" class="nav-link u-header__sub-menu-nav-link">4 Column Sidebar</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-5-column-sidebar.html" class="nav-link u-header__sub-menu-nav-link">5 Column Sidebar</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-6-column-full-width.html" class="nav-link u-header__sub-menu-nav-link">6 Column Full width</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/product-categories-7-column-full-width.html" class="nav-link u-header__sub-menu-nav-link">7 Column Full width</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-md-3">
-                                                        <span class="u-header__sub-menu-title">Single Product Pages</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group mb-3">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-extended.html" class="nav-link u-header__sub-menu-nav-link">Single Product Extended</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="nav-link u-header__sub-menu-nav-link">Single Product Fullwidth</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-sidebar.html" class="nav-link u-header__sub-menu-nav-link">Single Product Sidebar</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
-                                                        <span class="u-header__sub-menu-title">Ecommerce Pages</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop.html" class="nav-link u-header__sub-menu-nav-link">Shop</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/cart.html" class="nav-link u-header__sub-menu-nav-link">Cart</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/checkout.html" class="nav-link u-header__sub-menu-nav-link">Checkout</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/my-account.html" class="nav-link u-header__sub-menu-nav-link">My Account</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="nav-link u-header__sub-menu-nav-link">Track your Order</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/compare.html" class="nav-link u-header__sub-menu-nav-link">Compare</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
                                                     </div>
                                                     <div class="col-md-3">
-                                                        <span class="u-header__sub-menu-title">Blog Pages</span>
+                                                        <span class="u-header__sub-menu-title">parent menu</span>
                                                         <ul class="u-header__sub-menu-nav-group mb-3">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v1.html" class="nav-link u-header__sub-menu-nav-link">Blog v1</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v2.html" class="nav-link u-header__sub-menu-nav-link">Blog v2</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-v3.html" class="nav-link u-header__sub-menu-nav-link">Blog v3</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/blog/blog-full-width.html" class="nav-link u-header__sub-menu-nav-link">Blog Full Width</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/blog/single-blog-post.html" class="nav-link u-header__sub-menu-nav-link">Single Blog Post</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
-                                                        <span class="u-header__sub-menu-title">Shop Columns</span>
+                                                        <span class="u-header__sub-menu-title">parent menus</span>
                                                         <ul class="u-header__sub-menu-nav-group">
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-7-columns-full-width.html" class="nav-link u-header__sub-menu-nav-link">7 Column Full width</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-6-columns-full-width.html" class="nav-link u-header__sub-menu-nav-link">6 Column Full width</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-5-columns-sidebar.html" class="nav-link u-header__sub-menu-nav-link">5 Column Sidebar</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-4-columns-sidebar.html" class="nav-link u-header__sub-menu-nav-link">4 Column Sidebar</a></li>
-                                                            <li><a href="https://transvelo.github.io/electro-html/2.0/html/shop/shop-3-columns-sidebar.html" class="nav-link u-header__sub-menu-nav-link">3 Column Sidebar</a></li>
+                                                            <li><a href="#" class="nav-link u-header__sub-menu-nav-link">menú</a></li>
                                                         </ul>
                                                     </div>
                                                 </div>

@@ -23,7 +23,7 @@
                                     <sup class="">$</sup>749<sup class="">99</sup>
                                 </div>
                             </div>
-                            <a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                            <a href="#" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
                                 data-scs-animation-in="fadeInUp"
                                 data-scs-animation-delay="400">
                                 Start Buying
@@ -55,7 +55,7 @@
                                     <sup class="">$</sup>749<sup class="">99</sup>
                                 </div>
                             </div>
-                            <a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                            <a href="#" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
                                 data-scs-animation-in="fadeInUp"
                                 data-scs-animation-delay="400">
                                 Start Buying
@@ -87,7 +87,7 @@
                                     <sup class="">$</sup>749<sup class="">99</sup>
                                 </div>
                             </div>
-                            <a href="https://transvelo.github.io/electro-html/2.0/html/shop/single-product-fullwidth.html" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-15"
+                            <a href="#" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-15"
                                 data-scs-animation-in="fadeInUp"
                                 data-scs-animation-delay="400">
                                 Start Buying

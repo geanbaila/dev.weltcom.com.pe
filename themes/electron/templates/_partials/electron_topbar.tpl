@@ -11,11 +11,11 @@
                                         <a href="{$STORE_URL}/index.php?controller=contact" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Rastrea tu orden</a>
+                                        <a href="#" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Rastrea tu orden</a>
                                     </li>
+                                    <!-- Language
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
                                         <div class="d-flex align-items-center">
-                                            <!-- Language -->
                                             <div class="position-relative">
                                                 <a id="languageDropdownInvoker" class="dropdown-nav-link dropdown-toggle d-flex align-items-center u-header-topbar__nav-link font-weight-normal" href="javascript:;" role="button"
                                                     aria-controls="languageDropdown"
@@ -35,16 +35,15 @@
 
                                                 <div id="languageDropdown" class="dropdown-menu dropdown-unfold" aria-labelledby="languageDropdownInvoker">
                                                     <a class="dropdown-item active" href="#">English</a>
-                                                    <a class="dropdown-item" href="#">Deutsch</a>
                                                     <a class="dropdown-item" href="#">Español‎</a>
                                                 </div>
                                             </div>
-                                            <!-- End Language -->
                                         </div>
                                     </li>
+                                    End Language -->
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <!-- Account Sidebar Toggle Button -->
-                                        <a id="sidebarNavToggler" href="javascript:;" role="button" class="u-header-topbar__nav-link"
+                                        <!-- Account Sidebar Toggle Button ?controller=authentication&create_account=1-->
+                                        <a id="sidebarNavToggler" href="{$STORE_URL}/index.php?controller=my-account" role="button" class="u-header-topbar__nav-link"
                                             aria-controls="sidebarContent"
                                             aria-haspopup="true"
                                             aria-expanded="false"
