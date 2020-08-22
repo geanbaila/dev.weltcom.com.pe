@@ -8,7 +8,7 @@
                             <div class="topbar-right ml-auto">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="{$URL}/index.php?controller=contact" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
+                                        <a href="{$STORE_URL}/index.php?controller=contact" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
                                     </li>
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <a href="https://transvelo.github.io/electro-html/2.0/html/shop/track-your-order.html" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Rastrea tu orden</a>

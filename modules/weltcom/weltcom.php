@@ -19,9 +19,12 @@ class Weltcom extends Module{
 
 	public function install(){
 		if(!parent::install() || 
-			!Configuration::updateValue("WELTCOM_URL","https://weltcom.com") || 
+			!Configuration::updateValue("STORE_URL","http://localhost/weltcom") || 
+			!Configuration::updateValue("STORE_WHATSAPP_PHONE","51942805752") || 
+			!Configuration::updateValue("STORE_WHATSAPP_MESSAGE","Hola, visité su página web y quisiera hacerte una consulta.") || 
 			!$this->registerHook('displayProductAdditionalInfo') ||
-			!$this->registerHook('displayBanner')
+			!$this->registerHook('displayBanner') ||
+			!$this->registerHook('displayAfterBodyOpeningTag')
 		){
 			return false;
 		}
@@ -29,22 +32,32 @@ class Weltcom extends Module{
 	}
 
 	public function uninstall(){
-		if(!parent::uninstall() || !Configuration::deleteByName("WELTCOM_URL")){
+		if(!parent::uninstall() || 
+			!Configuration::deleteByName("STORE_URL") ||
+			!Configuration::deleteByName("STORE_WHATSAPP_PHONE") ||
+			!Configuration::deleteByName("STORE_WHATSAPP_MESSAGE")){
 			return false;
 		}
 		return true;
-		
 	}
 
 	public function getContent(){
 		$this->smarty->assign("isSave",false);
 		if(Tools::isSubmit("submitWeltcom")){
 			$url = Tools::getValue("txtUrl");
-			Configuration::updateValue("WELTCOM_URL",$url);
+			$whatsappPhone = Tools::getValue("txtWhatsappPhone");
+			$whatsappMessage = Tools::getValue("txtWhatsappMessage");
+			Configuration::updateValue("STORE_URL",$url);
+			Configuration::updateValue("STORE_WHATSAPP_PHONE",$whatsappPhone);
+			Configuration::updateValue("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
 			$this->smarty->assign("isSave",true);
 		}
-		$url = Configuration::get("WELTCOM_URL");
-		$this->smarty->assign("URL",$url);
+		$url = Configuration::get("STORE_URL");
+		$whatsappPhone = Configuration::get("STORE_WHATSAPP_PHONE");
+		$whatsappMessage = Configuration::get("STORE_WHATSAPP_MESSAGE");
+		$this->smarty->assign("STORE_URL",$url);
+		$this->smarty->assign("STORE_WHATSAPP_PHONE",$whatsappPhone);
+		$this->smarty->assign("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
 		return $this->display(__FILE__,"configure.tpl");
 	}
 
@@ -55,9 +68,23 @@ class Weltcom extends Module{
 	}
 
 	public function hookDisplayBanner($params){
-		$url = Configuration::get("WELTCOM_URL");
-		$this->context->smarty->assign("URL", $url);
+		$url = Configuration::get("STORE_URL");
+		$whatsappPhone = Configuration::get("STORE_WHATSAPP_PHONE");
+		$whatsappMessage = Configuration::get("STORE_WHATSAPP_MESSAGE");
+		$this->context->smarty->assign("STORE_URL",$url);
+		$this->context->smarty->assign("STORE_WHATSAPP_PHONE",$whatsappPhone);
+		$this->context->smarty->assign("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
 		return $this->display(__FILE__, "displayBanner.tpl");
+	}
+
+	public function hookDisplayAfterBodyOpeningTag($params){
+		$url = Configuration::get("STORE_URL");
+		$whatsappPhone = Configuration::get("STORE_WHATSAPP_PHONE");
+		$whatsappMessage = Configuration::get("STORE_WHATSAPP_MESSAGE");
+		$this->context->smarty->assign("STORE_URL",$url);
+		$this->context->smarty->assign("STORE_WHATSAPP_PHONE",$whatsappPhone);
+		$this->context->smarty->assign("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
+		return $this->display(__FILE__, "displayAfterBodyOpeningTag.tpl");
 	}
 
 
