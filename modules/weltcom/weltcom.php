@@ -19,7 +19,7 @@ class Weltcom extends Module{
 
 	public function install(){
 		if(!parent::install() || 
-			!Configuration::updateValue("STORE_URL","http://localhost/weltcom") || 
+			!Configuration::updateValue("STORE_URL","http://localhost/weltcom/weltcom") || 
 			!Configuration::updateValue("STORE_WHATSAPP_PHONE","51942805752") || 
 			!Configuration::updateValue("STORE_WHATSAPP_MESSAGE","Hola, visité su página web y quisiera hacerte una consulta.") || 
 			!$this->registerHook('displayProductAdditionalInfo') ||
@@ -78,12 +78,15 @@ class Weltcom extends Module{
 	}
 
 	public function hookDisplayAfterBodyOpeningTag($params){
+		
+		$whatsappDomain = (is_numeric(strpos(strtolower($_SERVER['HTTP_USER_AGENT']), "mobile")))?"api.whatsapp.com":"web.whatsapp.com";
 		$url = Configuration::get("STORE_URL");
 		$whatsappPhone = Configuration::get("STORE_WHATSAPP_PHONE");
 		$whatsappMessage = Configuration::get("STORE_WHATSAPP_MESSAGE");
 		$this->context->smarty->assign("STORE_URL",$url);
 		$this->context->smarty->assign("STORE_WHATSAPP_PHONE",$whatsappPhone);
 		$this->context->smarty->assign("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
+		$this->context->smarty->assign("STORE_WHATSAPP_DOMAIN",$whatsappDomain);
 		return $this->display(__FILE__, "displayAfterBodyOpeningTag.tpl");
 	}
 

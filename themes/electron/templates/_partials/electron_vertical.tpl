@@ -27,20 +27,11 @@
                                                 <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space hs-menu-initialized">
                                                     <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
                                                         <ul class="navbar-nav u-header__navbar-nav">
-                                                            <li class="nav-item u-header__nav-item"
-                                                                data-event="hover"
-                                                                data-position="left">
-                                                                <a href="#" class="nav-link u-header__nav-link font-weight-bold">Value of the Day</a>
-                                                            </li>
+                                                            
                                                             <li class="nav-item u-header__nav-item"
                                                                 data-event="hover"
                                                                 data-position="left">
                                                                 <a href="#" class="nav-link u-header__nav-link font-weight-bold">Top 100 Offers</a>
-                                                            </li>
-                                                            <li class="nav-item u-header__nav-item"
-                                                                data-event="hover"
-                                                                data-position="left">
-                                                                <a href="#" class="nav-link u-header__nav-link font-weight-bold">New Arrivals</a>
                                                             </li>
                                                             <!-- Nav Item MegaMenu -->
                                                             <li class="nav-item hs-has-mega-menu u-header__nav-item"

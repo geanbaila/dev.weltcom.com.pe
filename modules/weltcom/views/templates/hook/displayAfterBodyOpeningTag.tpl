@@ -17,5 +17,5 @@ img.btnWhatsapp:hover{
 }
 </style>
 <div class="btnWhatsappFrame">
-<a target="_blank" href="https://web.whatsapp.com/send?phone={$STORE_WHATSAPP_PHONE}&text={$STORE_WHATSAPP_MESSAGE}"><img class="btnWhatsapp" src="{$STORE_URL}/img/whatsapp.png"></a>
+<a target="_blank" href="https://{$STORE_WHATSAPP_DOMAIN}/send?phone={$STORE_WHATSAPP_PHONE}&text={$STORE_WHATSAPP_MESSAGE}"><img class="btnWhatsapp" src="{$STORE_URL}/img/whatsapp.png"></a>
 </div>

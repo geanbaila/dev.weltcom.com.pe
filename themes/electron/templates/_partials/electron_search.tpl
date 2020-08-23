@@ -5,11 +5,17 @@
                             <!-- Logo-offcanvas-menu -->
                             <div class="col-auto">
                                 <!-- Nav -->
-                                <nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270">
+                                <nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270" id="_desktop_logo">
                                     <!-- Logo -->
-                                    <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="index.php" aria-label="WELTCOM">
-                                        <img src="img/logo.png">
-                                    </a>
+                                    {if $page.page_name == 'index'}
+                                      <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{$urls.base_url}" aria-label="{$shop.name}">
+                                          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                                        </a>
+                                    {else}
+                                        <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{$urls.base_url}" aria-label="{$shop.name}">
+                                          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                                        </a>
+                                    {/if}
                                     <!-- End Logo -->
 
                                     <!-- Fullscreen Toggle Button -->
@@ -59,8 +65,8 @@
                                                 <div class="js-scrollbar u-sidebar__body">
                                                     <div id="headerSidebarContent" class="u-sidebar__content u-header-sidebar__content">
                                                         <!-- Logo -->
-                                                        <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mb-3" href="index.php" aria-label="Electro">
-                                                            <img src="img/logo.png">
+                                                        <a class="navbar-brand u-header__navbar-brand u-header__navbar-brand-center mb-3" href="{$urls.base_url}" aria-label="{$shop.name}">
+                                                          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
                                                         </a>
                                                         <!-- End Logo -->
 

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "font-electro";
-  src:url("http://localhost/weltcom/themes/electron/assets/fonts/font-electro.eot");
-  src:url("http://localhost/weltcom/themes/electron/assets/fonts/font-electro.eot?#iefix") format("embedded-opentype"),
-    url("http://localhost/weltcom/themes/electron/assets/fonts/font-electro.woff") format("woff"),
-    url("http://localhost/weltcom/themes/electron/assets/fonts/font-electro.ttf") format("truetype"),
-    url("http://localhost/weltcom/themes/electron/assets/fonts/font-electro.svg#font-electro") format("svg");
+  src:url("http://juninserver.net/weltcom/themes/electron/assets/fonts/font-electro.eot");
+  src:url("http://juninserver.net/weltcom/themes/electron/assets/fonts/font-electro.eot?#iefix") format("embedded-opentype"),
+    url("http://juninserver.net/weltcom/themes/electron/assets/fonts/font-electro.woff") format("woff"),
+    url("http://juninserver.net/weltcom/themes/electron/assets/fonts/font-electro.ttf") format("truetype"),
+    url("http://juninserver.net/weltcom/themes/electron/assets/fonts/font-electro.svg#font-electro") format("svg");
   font-weight: normal;
   font-style: normal;
 

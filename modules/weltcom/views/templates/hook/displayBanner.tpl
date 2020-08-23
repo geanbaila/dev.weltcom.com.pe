@@ -9,4 +9,4 @@
 	{include file="_partials/electron_slider.tpl" vars="$STORE_URL"}
 	{include file="_partials/electron_banner.tpl" vars="$STORE_URL"}
 </main>
-<link rel="stylesheet" href="http://localhost/weltcom/themes/electron/assets/css/2theme.css?v=2" type="text/css" media="all">
+<link rel="stylesheet" href="http://juninserver.net/weltcom/themes/electron/assets/css/2theme.css?v=2" type="text/css" media="all">
