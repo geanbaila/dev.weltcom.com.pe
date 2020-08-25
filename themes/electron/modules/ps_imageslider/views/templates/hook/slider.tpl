@@ -22,39 +22,42 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-
+<!-- Slider Section -->
 {if $homeslider.slides}
-  <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="{$homeslider.speed}" data-wrap="{(string)$homeslider.wrap}" data-pause="{$homeslider.pause}">
-    <ul class="carousel-inner" role="listbox">
-      {foreach from=$homeslider.slides item=slide name='homeslider'}
-        <li class="carousel-item {if $smarty.foreach.homeslider.first}active{/if}" role="option" aria-hidden="{if $smarty.foreach.homeslider.first}false{else}true{/if}">
-          <a href="{$slide.url}">
-            <figure>
-              <img src="{$slide.image_url}" alt="{$slide.legend|escape}">
-              {if $slide.title || $slide.description}
-                <figcaption class="caption">
-                  <h2 class="display-1 text-uppercase">{$slide.title}</h2>
-                  <div class="caption-description">{$slide.description nofilter}</div>
-                </figcaption>
-              {/if}
-            </figure>
-          </a>
-        </li>
-      {/foreach}
-    </ul>
-    <div class="direction" aria-label="{l s='Carousel buttons' d='Shop.Theme.Global'}">
-      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-        <span class="icon-prev hidden-xs" aria-hidden="true">
-          <i class="material-icons">&#xE5CB;</i>
-        </span>
-        <span class="sr-only">{l s='Previous' d='Shop.Theme.Global'}</span>
-      </a>
-      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-        <span class="icon-next" aria-hidden="true">
-          <i class="material-icons">&#xE5CC;</i>
-        </span>
-        <span class="sr-only">{l s='Next' d='Shop.Theme.Global'}</span>
-      </a>
+<main id="content" role="main">
+<div class="mb-5" style="margin-top:-50px">
+    <div class="bg-img-hero" style="background-image: url('http://localhost/weltcom/themes/electron/assets/img/1920X422/img1.jpg');">
+        <div class="container min-height-420 overflow-hidden">
+            <div class="js-slick-carousel u-slick"
+                data-pagi-classes="text-center position-absolute right-0 bottom-0 left-0 u-slick__pagination u-slick__pagination--long justify-content-start mb-3 mb-md-4 offset-xl-3 pl-2 pb-1">
+                {foreach from=$homeslider.slides item=slide name='homeslider'}
+                <div class="js-slide bg-img-hero-center">
+                    <div class="row min-height-420 py-7 py-md-0">
+                        <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
+                            <h1 class="font-size-64 text-lh-57 font-weight-light"
+                                data-scs-animation-in="fadeInUp">
+                                {$slide.title}
+                            </h1>
+                            {$slide.description nofilter}
+                            <a href="{$slide.url}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                                data-scs-animation-in="fadeInUp"
+                                data-scs-animation-delay="400">
+                                Comprar
+                            </a>
+                        </div>
+                        <div class="col-xl-5 col-6  d-flex align-items-center"
+                            data-scs-animation-in="zoomIn"
+                            data-scs-animation-delay="500">
+                             <figure>
+                              <img class="img-fluid" src="{$slide.image_url}" alt="{$slide.legend|escape}">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+                {/foreach}
+            </div>
+        </div>
     </div>
-  </div>
+</div>
+</main>
 {/if}
