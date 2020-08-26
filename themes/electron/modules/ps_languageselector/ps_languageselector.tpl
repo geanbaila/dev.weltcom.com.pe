@@ -22,13 +22,17 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+ <!--
+  qwe
+<ul class="d-flex list-unstyled mb-0 align-items-center">
+<li class="col d-none d-xl-block">
 <div id="_desktop_language_selector">
   <div class="language-selector-wrapper">
     <span id="language-selector-label" class="hidden-md-up">{l s='Language:' d='Shop.Theme.Global'}</span>
     <div class="language-selector dropdown js-dropdown">
       <button data-toggle="dropdown" class="hidden-sm-down btn-unstyle" aria-haspopup="true" aria-expanded="false" aria-label="{l s='Language dropdown' d='Shop.Theme.Global'}">
         <span class="expand-more">{$current_language.name_simple}</span>
-        <i class="material-icons expand-more">&#xE5C5;</i>
+        <i class="ec ec-arrow-down-search"></i>
       </button>
       <ul class="dropdown-menu hidden-sm-down" aria-labelledby="language-selector-label">
         {foreach from=$languages item=language}
@@ -47,3 +51,6 @@
     </div>
   </div>
 </div>
+</li>
+</ul>
+-->

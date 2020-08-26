@@ -22,7 +22,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<!-- movido a electro_search -->
+<!-- qwe -->
 <div id="_desktop_cart">
   <!--<div class="blockcart cart-preview {if $cart.products_count > 0}active{else}inactive{/if}" data-refresh-url="{$refresh_url}">
     <div class="header">

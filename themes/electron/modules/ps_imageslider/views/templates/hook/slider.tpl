@@ -25,7 +25,7 @@
 <!-- Slider Section -->
 {if $homeslider.slides}
 <main id="content" role="main">
-<div class="mb-5" style="margin-top:-50px">
+<div class="mb-5" style="margin-top:-1.8em">
     <div class="bg-img-hero" style="background-image: url('http://localhost/weltcom/themes/electron/assets/img/1920X422/img1.jpg');">
         <div class="container min-height-420 overflow-hidden">
             <div class="js-slick-carousel u-slick"
@@ -34,12 +34,12 @@
                 <div class="js-slide bg-img-hero-center">
                     <div class="row min-height-420 py-7 py-md-0">
                         <div class="offset-xl-3 col-xl-4 col-6 mt-md-8">
-                            <h1 class="font-size-64 text-lh-57 font-weight-light"
+                            <h1 class="font-size-64 text-lh-50 font-weight-light"
                                 data-scs-animation-in="fadeInUp">
                                 {$slide.title}
                             </h1>
                             {$slide.description nofilter}
-                            <a href="{$slide.url}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-16"
+                            <a href="{$slide.url}" class="btn btn-primary transition-3d-hover rounded-lg font-weight-normal py-2 px-md-7 px-3 font-size-14"
                                 data-scs-animation-in="fadeInUp"
                                 data-scs-animation-delay="400">
                                 Comprar

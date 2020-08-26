@@ -387,12 +387,12 @@ template {
   display: none !important;
 }
 
-h1, h2, h3, h4, h5, h6,
+/*h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
   font-weight: 300;
   line-height: 1.5;
-}
+}*/
 
 h1, .h1 {
   font-size: 2.5rem;
@@ -402,9 +402,9 @@ h2, .h2 {
   font-size: 2rem;
 }
 
-h3, .h3 {
+/*h3, .h3 {
   font-size: 1.75rem;
-}
+}*/
 
 h4, .h4 {
   font-size: 1.5rem;
@@ -638,7 +638,7 @@ pre code {
   padding-right: 0;
   padding-left: 0;
 }
-
+/*qwe*/
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col,
 .col-auto, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm,
 .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md,
@@ -3110,7 +3110,7 @@ textarea.form-control {
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -4154,7 +4154,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.5);
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
@@ -4171,7 +4171,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-outline-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.5);
 }
 
 .btn-outline-secondary {
@@ -5789,11 +5789,11 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(254, 215, 0, 0.5);
+  background-color: rgba(216,116,42, 0.5);
 }
 
 .custom-checkbox .custom-control-input:disabled:indeterminate ~ .custom-control-label::before {
-  background-color: rgba(254, 215, 0, 0.5);
+  background-color: rgba(216,116,42, 0.5);
 }
 
 .custom-radio .custom-control-label::before {
@@ -5805,7 +5805,7 @@ input[type="button"].btn-block {
 }
 
 .custom-radio .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(254, 215, 0, 0.5);
+  background-color: rgba(216,116,42, 0.5);
 }
 
 .custom-switch {
@@ -5844,7 +5844,7 @@ input[type="button"].btn-block {
 }
 
 .custom-switch .custom-control-input:disabled:checked ~ .custom-control-label::before {
-  background-color: rgba(254, 215, 0, 0.5);
+  background-color: rgba(216,116,42, 0.5);
 }
 
 .custom-select {
@@ -5869,7 +5869,7 @@ input[type="button"].btn-block {
 .custom-select:focus {
   border-color: rgba(55, 125, 255, 0.5);
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.25);
 }
 
 .custom-select:focus::-ms-value {
@@ -7002,7 +7002,7 @@ input[type="button"].btn-block {
 .page-link:focus {
   z-index: 2;
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.25);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.25);
 }
 
 .page-item:first-child .page-link {
@@ -7113,7 +7113,7 @@ a.badge-primary:hover, a.badge-primary:focus {
 
 a.badge-primary:focus, a.badge-primary.focus {
   outline: 0;
-  box-shadow: 0 0 0 0.2rem rgba(254, 215, 0, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(216,116,42, 0.5);
 }
 
 .badge-secondary {
@@ -8865,7 +8865,7 @@ a.close.disabled {
 .toast-body {
   padding: 0.75rem;
 }
-
+/*
 .modal-open {
   overflow: hidden;
 }
@@ -9090,7 +9090,7 @@ a.close.disabled {
     max-width: 1140px;
   }
 }
-
+*/
 .tooltip {
   position: absolute;
   z-index: 9999;
@@ -9201,7 +9201,7 @@ a.close.disabled {
   background-color: #000000;
   border-radius: 0.3125rem;
 }
-
+/*
 .popover {
   position: absolute;
   top: 0;
@@ -9363,7 +9363,7 @@ a.close.disabled {
   padding: 0.75rem 1rem;
   color: #333e48;
 }
-
+*/
 .carousel {
   position: relative;
 }
@@ -25255,7 +25255,7 @@ button:focus {
 ------------------------------------*/
 /* primary button :hover, :focus, :active effects */
 .btn-primary[href]:hover, .btn-primary[href]:focus, .btn-primary[href]:active, .btn-primary[type]:hover, .btn-primary[type]:focus, .btn-primary[type]:active {
-  box-shadow: 0 4px 11px rgba(254, 215, 0, 0.35);
+  box-shadow: 0 4px 11px rgba(216,116,42, 0.35);
 }
 
 .btn-primary:not(label.btn), .btn-primary:not(label.btn):not([href]):not(:disabled):not(.disabled), .btn-primary:not([href]), .btn-primary:not([href]):not([href]):not(:disabled):not(.disabled) {
@@ -25828,19 +25828,19 @@ button:focus {
 /* primary air */
 .btn-soft-primary {
   color: #ff9243;/*qwe*/
-  background: rgba(254, 215, 0, 0.1);
+  background: rgba(216,116,42, 0.1);
   border-color: transparent;
 }
 
 .btn-soft-primary[href]:hover, .btn-soft-primary[href]:focus, .btn-soft-primary[href]:active, .btn-soft-primary[href].active, .btn-soft-primary[type]:hover, .btn-soft-primary[type]:focus, .btn-soft-primary[type]:active, .btn-soft-primary[type].active {
   color: #1e2022;
   background: #ff9243;/*qwe*/
-  box-shadow: 0 4px 11px rgba(254, 215, 0, 0.35);
+  box-shadow: 0 4px 11px rgba(216,116,42, 0.35);
 }
 
 .btn-soft-primary[href].disabled, .btn-soft-primary[href]:disabled, .btn-soft-primary[type].disabled, .btn-soft-primary[type]:disabled {
   color: #ff9243;/*qwe*/
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
   box-shadow: none;
 }
 
@@ -28049,7 +28049,7 @@ label.btn {
   position: relative;
   top: 1px;
   padding: .25rem .25rem .25rem .75rem;
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
   border-radius: 6.1875rem;
 }
 
@@ -28103,7 +28103,7 @@ label.btn {
 
 .u-sidebar--account__list-link.active, .u-sidebar--account__list-link:hover {
   color: #ff9243;/*qwe*/
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
 }
 
 .u-sidebar--account__list-link.active .u-sidebar--account__list-icon, .u-sidebar--account__list-link:hover .u-sidebar--account__list-icon {
@@ -29363,7 +29363,7 @@ label.btn {
 
 .u-media-player__icon--primary {
   color: #ff9243;/*qwe*/
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
 }
 
 .u-media-player__icon--success {
@@ -30358,7 +30358,7 @@ label.btn {
 /* Flat */
 .u-slick__arrow--flat {
   color: #fff;
-  background-color: rgba(254, 215, 0, 0.8);
+  background-color: rgba(216,116,42, 0.8);
 }
 
 /* Flat White */
@@ -30643,7 +30643,7 @@ label.btn {
 ------------------------------------*/
 .svg-preloader {
   z-index: -1;
-  background: transparent url("http://juninserver.net/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") center no-repeat !important;
+  background: transparent url("http://localhost/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") center no-repeat !important;
   overflow: hidden;
   transition: all 0.4s ease-in;
 }
@@ -31331,7 +31331,7 @@ label.btn {
   Background Soft Colors
 ------------------------------------*/
 .bg-soft-primary {
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
 }
 
 .bg-soft-secondary {
@@ -32141,7 +32141,7 @@ label.btn {
 
 /* Zoom overlay effect */
 .u-cubeportfolio .cbp-caption-zoom .cbp-caption-activeWrap {
-  background-color: rgba(254, 215, 0, 0.9);
+  background-color: rgba(216,116,42, 0.9);
 }
 
 /*------------------------------------
@@ -32400,7 +32400,7 @@ label.btn {
 
 .u-datepicker .flatpickr-day:focus, .u-datepicker .flatpickr-day:hover {
   color: #ff9243;/*qwe*/
-  background-color: rgba(254, 215, 0, 0.1);
+  background-color: rgba(216,116,42, 0.1);
 }
 
 .u-datepicker .flatpickr-day.inRange {
@@ -32702,7 +32702,7 @@ label.btn {
 }
 
 .u-range-slider-grid .irs-grid-text.current {
-  background: rgba(254, 215, 0, 0.1);
+  background: rgba(216,116,42, 0.1);
   color: #ff9243;/*qwe*/
 }
 
@@ -32751,7 +32751,7 @@ label.btn {
 }
 
 .u-slick {
-  background: url("http://juninserver.net/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") no-repeat 50% 50%;
+  background: url("http://localhost/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") no-repeat 50% 50%;
 }
 
 .u-slick .js-next,
@@ -37471,6 +37471,9 @@ blockquote:not(.blockquote) p {
   top: 0.2rem;
 }
 
+.geanbaila{
+  background-color: #123123;
+}
 /*------------------------------------
   File for your custom SCSS style
 ------------------------------------*/

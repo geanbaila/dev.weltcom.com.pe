@@ -407,25 +407,6 @@
                                                 <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00 STORE_URL</span>
                                             </a>
                                         </li>
-                                        <li class="col pr-xl-0 px-2 px-sm-3 d-none d-xl-block">
-                                            <div id="basicDropdownHoverInvoker" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart"
-                                                aria-controls="basicDropdownHover"
-                                                aria-haspopup="true"
-                                                aria-expanded="false"
-                                                data-unfold-event="click"
-                                                data-unfold-target="#basicDropdownHover"
-                                                data-unfold-type="css-animation"
-                                                data-unfold-duration="300"
-                                                data-unfold-delay="300"
-                                                data-unfold-hide-on-scroll="true"
-                                                data-unfold-animation-in="slideInUp"
-                                                data-unfold-animation-out="fadeOut">
-                                                <a href="STORE_URL?controller=cart&action=show">
-                                                <i class="font-size-22 ec ec-shopping-bag"></i>
-                                                <span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3"></span></a>
-                                            </div>
-                                        </li>
                                         <li>
                                             {hook h='displayNav2'}
                                         </li>

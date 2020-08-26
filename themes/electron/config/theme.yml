@@ -150,8 +150,8 @@ global_settings:
         - ps_customersignin
         - ps_shoppingcart
       displayTop:
-        - ps_mainmenu
         - ps_searchbar
+        - ps_mainmenu
       displayHome:
         - ps_imageslider
         - ps_featuredproducts

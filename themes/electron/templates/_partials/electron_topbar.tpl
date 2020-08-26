@@ -1,3 +1,5 @@
+    
+
     <!-- Topbar -->
                 <div class="u-header-topbar py-2 d-none d-xl-block">
                     <div class="container">
@@ -57,6 +59,7 @@
                                             <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
                                         </a>
                                         <!-- End Account Sidebar Toggle Button -->
+
                                     </li>
                                 </ul>
                             </div>

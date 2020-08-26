@@ -29,18 +29,12 @@
   </div>
 {/block}
 
+{hook h='displayNav1'}
+
 {block name='header_nav'}
   <nav class="header-nav">
     <div class="container">
       <div class="row">
-        <div class="hidden-sm-down">
-          <div class="col-md-5 col-xs-12">
-            {hook h='displayNav1'}
-          </div>
-          <div class="col-md-7 right-nav">
-            
-          </div>
-        </div>
         <div class="hidden-md-up text-sm-center mobile">
           <div class="float-xs-left" id="menu-icon">
             <i class="material-icons d-inline">&#xE5D2;</i>
@@ -55,11 +49,10 @@
   </nav>
 {/block}
 
-{hook h='displayTop'}
-
 {block name='header_top'}
   <div class="header-top">
     <div class="container">
+      {hook h='displayTop'}
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">
         <div class="js-top-menu mobile" id="_mobile_top_menu"></div>
         <div class="js-top-menu-bottom">
@@ -72,3 +65,5 @@
   </div>
   {hook h='displayNavFullWidth'}
 {/block}
+
+

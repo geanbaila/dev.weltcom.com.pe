@@ -2,7 +2,7 @@
 <module>
     <name>ps_languageselector</name>
     <displayName><![CDATA[Bloque selector de idioma]]></displayName>
-    <version><![CDATA[2.0.2]]></version>
+    <version><![CDATA[2.1.0]]></version>
     <description><![CDATA[A&ntilde;ade un bloque que permite a los clientes seleccionar un idioma para el contenido de la tienda.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[]]></tab>
