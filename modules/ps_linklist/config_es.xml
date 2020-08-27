@@ -2,7 +2,7 @@
 <module>
     <name>ps_linklist</name>
     <displayName><![CDATA[Lista de enlaces]]></displayName>
-    <version><![CDATA[3.1.0]]></version>
+    <version><![CDATA[3.2.0]]></version>
     <description><![CDATA[A&ntilde;ade un bloque con m&uacute;ltiples enlaces.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[front_office_features]]></tab>

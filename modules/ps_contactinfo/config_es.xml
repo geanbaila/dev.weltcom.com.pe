@@ -2,7 +2,7 @@
 <module>
     <name>ps_contactinfo</name>
     <displayName><![CDATA[Informaci&oacute;n de contacto]]></displayName>
-    <version><![CDATA[3.2.0]]></version>
+    <version><![CDATA[3.3.0]]></version>
     <description><![CDATA[Te permite mostrar informaci&oacute;n adicional sobre el servicio de atenci&oacute;n al cliente de tu tienda.]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[]]></tab>

@@ -2,7 +2,7 @@
 <module>
     <name>dashproducts</name>
     <displayName><![CDATA[Panel de Productos]]></displayName>
-    <version><![CDATA[2.0.4]]></version>
+    <version><![CDATA[2.1.0]]></version>
     <description><![CDATA[A&ntilde;ade un bloque presentando en una tabla los &uacute;ltimos pedidos producidos en tu tienda y una clasificaci&oacute;n de tus productos]]></description>
     <author><![CDATA[PrestaShop]]></author>
     <tab><![CDATA[dashboard]]></tab>

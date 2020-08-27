@@ -29,7 +29,33 @@
         <div class="py-2 py-xl-5 bg-primary-down-lg">
           <div class="container my-0dot5 my-xl-0">
             <div class="row align-items-center">
-            {hook h='displayNav0'}
+            {*hook h='displayNav0'*}
+
+                              <div class="col-auto">
+                                <!-- Nav -->
+                                <nav class="navbar navbar-expand u-header__navbar py-0 justify-content-xl-between max-width-270 min-width-270" id="_desktop_logo">
+                                    <!-- Logo -->
+                                    {if $page.page_name == 'index'}
+                                      <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{$urls.base_url}" aria-label="{$shop.name}">
+                                          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                                        </a>
+                                    {else}
+                                        <a class="order-1 order-xl-0 navbar-brand u-header__navbar-brand u-header__navbar-brand-center" href="{$urls.base_url}" aria-label="{$shop.name}">
+                                          <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}">
+                                        </a>
+                                    {/if}
+                                    <!-- End Logo -->
+                                </nav>
+                                <!-- End Nav -->
+                              </div>
+
+          <!--<div class="col-md-6 hidden-sm-down" id="_desktop_logo">
+            <a href="{$urls.base_url}">
+              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name} {l s='logo' d='Shop.Theme.Global'}">
+            </a>
+          </div>-->
+
+
             {hook h='displayNav1'}
             </div>
           </div>
@@ -62,12 +88,3 @@
 
 
 
-
-<!--
-
-          <div class="col-md-6 hidden-sm-down" id="_desktop_logo">
-            <a href="{$urls.base_url}">
-              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name} {l s='logo' d='Shop.Theme.Global'}">
-            </a>
-          </div>
--->
