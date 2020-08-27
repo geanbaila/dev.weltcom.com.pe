@@ -22,7 +22,7 @@
         <div>
           <div id="{$option.id}-container" class="payment-option clearfix">
             {* This is the way an option should be selected when Javascript is enabled *}
-            <span class="custom-radio float-xs-left">
+            <span class="xcustom-radio float-xs-left">
               <input
                 class="ps-shown-by-js {if $option.binary} binary {/if}"
                 id="{$option.id}"

@@ -30,7 +30,7 @@
     >
       <header class="h4">
         <label class="radio-block">
-          <span class="custom-radio">
+          <span class="xcustom-radio">
             <input
               type="radio"
               name="{$name}"

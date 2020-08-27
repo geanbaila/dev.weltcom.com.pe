@@ -55,7 +55,8 @@
   <link rel="shortcut icon" type="image/x-icon" href="{$shop.favicon}?{$shop.favicon_update_time}">
 {/block}
 <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;display=swap" rel="stylesheet">
+
 {block name='stylesheets'}
   {include file="_partials/stylesheets.tpl" stylesheets=$stylesheets}
 {/block}
@@ -67,5 +68,8 @@
 {block name='hook_header'}
   {$HOOK_HEADER nofilter}
 {/block}
-
-{block name='hook_extra'}{/block}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="http://localhost/weltcom/themes/electron/assets/css/2theme.css?v=2" type="text/css" media="all">
+{block name='hook_extra'}
+  
+{/block}

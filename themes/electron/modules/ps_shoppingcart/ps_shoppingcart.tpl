@@ -22,9 +22,8 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<!-- qwe -->
-<div id="_desktop_cart">
-  <!--<div class="blockcart cart-preview {if $cart.products_count > 0}active{else}inactive{/if}" data-refresh-url="{$refresh_url}">
+<!-- qwe
+  <div class="blockcart cart-preview {if $cart.products_count > 0}active{else}inactive{/if}" data-refresh-url="{$refresh_url}">
     <div class="header">
       {if $cart.products_count > 0}
         <a rel="nofollow" href="{$cart_url}">
@@ -35,10 +34,13 @@
         </a>
       {/if}
     </div>
-  </div>-->
-  <ul>
-    <li class="col pr-xl-0 px-2 px-sm-3 d-none d-xl-block">
-        <div id="basicDropdownHoverInvoker" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart"
+  </div>
+  -->
+
+        <div id="basicDropdownHoverInvoker" class="text-gray-90 position-relative d-flex " data-refresh-url="{$refresh_url}"
+            data-toggle="tooltip" 
+            data-placement="top" 
+            title="{l s='Cart' d='Shop.Theme.Checkout'}"
             aria-controls="basicDropdownHover"
             aria-haspopup="true"
             aria-expanded="false"
@@ -50,11 +52,8 @@
             data-unfold-hide-on-scroll="true"
             data-unfold-animation-in="slideInUp"
             data-unfold-animation-out="fadeOut">
-            <a href="{$cart_url}">
+            <a rel="nofollow" href="{$cart_url}">
             <i class="font-size-22 ec ec-shopping-bag"></i>
             <span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">{$cart.products_count}</span>
             <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3"></span></a>
         </div>
-    </li>
-  </ul>
-</div>

@@ -24,7 +24,12 @@ class Weltcom extends Module{
 			!Configuration::updateValue("STORE_WHATSAPP_MESSAGE","Hola, visité su página web y quisiera hacerte una consulta.") || 
 			!$this->registerHook('displayProductAdditionalInfo') ||
 			!$this->registerHook('displayBanner') ||
-			!$this->registerHook('displayAfterBodyOpeningTag')
+			!$this->registerHook('displayAfterBodyOpeningTag') ||
+			// !$this->registerHook('displayNav3') ||
+			// !$this->registerHook('displayNav4') ||
+			// !$this->registerHook('displayNav2') ||
+			!$this->registerHook('displayNav0')
+			
 		){
 			return false;
 		}
@@ -91,16 +96,27 @@ class Weltcom extends Module{
 		return $this->display(__FILE__, "displayAfterBodyOpeningTag.tpl");
 	}
 
+	public function hookDisplayNav3($params){
+		return $this->display(__FILE__, "displayNav3.tpl");
+	}
+
+	public function hookDisplayNav4($params){
+		return $this->display(__FILE__, "displayNav4.tpl");
+	}
+
+	public function hookDisplayNav2($params){
+		return $this->display(__FILE__, "displayNav2.tpl");
+	} 
+
+	public function hookDisplayNav0($params){
+		return $this->display(__FILE__, "displayNav0.tpl");
+	} 
 
 
 
 
 
-
-
-
-
-
+	
 
 
 

@@ -141,16 +141,30 @@ global_settings:
    to_enable:
      - ps_linklist
   hooks:
+    custom_hooks:
+      - name: displayNav3
+        title: displayNav3
+        description: displayNav3 for electron
+      - name: displayNav4
+        title: displayNav4
+        description: displayNav4 for electron
+      - name: displayNav0
+        title: displayNav0
+        description: displayNav0 for electron
     modules_to_hook:
+      displayNav0:
+        - weltcom
       displayNav1:
-        - ps_contactinfo
+        #- ps_contactinfo
+        - ps_searchbar
       displayNav2:
         - ps_languageselector
         - ps_currencyselector
         - ps_customersignin
         - ps_shoppingcart
+      displayNav3:
+        #- weltcom
       displayTop:
-        - ps_searchbar
         - ps_mainmenu
       displayHome:
         - ps_imageslider
@@ -163,7 +177,7 @@ global_settings:
       displayFooter:
         - ps_linklist
         - ps_customeraccountlinks
-        - ps_contactinfo
+        #- ps_contactinfo
       displayLeftColumn:
         - ps_categorytree
         - ps_facetedsearch
