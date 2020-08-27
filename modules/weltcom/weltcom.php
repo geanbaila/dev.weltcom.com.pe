@@ -74,6 +74,7 @@ class Weltcom extends Module{
 		$this->context->smarty->assign("STORE_URL",$url);
 		$this->context->smarty->assign("STORE_WHATSAPP_PHONE",$whatsappPhone);
 		$this->context->smarty->assign("STORE_WHATSAPP_MESSAGE",$whatsappMessage);
+		$this->context->smarty->assign("RANDOM",uniqid());
 		return $this->display(__FILE__, "displayBanner.tpl");
 	}
 

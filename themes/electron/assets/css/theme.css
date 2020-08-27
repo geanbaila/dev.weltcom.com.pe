@@ -1,8 +1,3 @@
-.bootstrap-touchspin .input-group-btn-vertical{position:relative;white-space:nowrap;width:1%;vertical-align:middle;display:table-cell}
-.bootstrap-touchspin .input-group-btn-vertical>.btn{display:block;float:none;width:100%;max-width:100%;padding:8px 10px;margin-left:-1px;position:relative}
-.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{border-radius:0;border-top-right-radius:4px}
-.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down{margin-top:-2px;border-radius:0;border-bottom-right-radius:4px}
-.bootstrap-touchspin .input-group-btn-vertical i{position:absolute;top:3px;left:5px;font-size:9px;font-weight:400}
 /*!
  * Bootstrap v4.0.0-alpha.5 (https://getbootstrap.com)
  * Copyright 2011-2016 The Bootstrap Authors
@@ -1369,11 +1364,28 @@ input:active:-moz-placeholder,textarea:active:-moz-placeholder{color:#232323}
 .bootstrap-touchspin input.form-control,.bootstrap-touchspin input.input-group{color:#232323;background-color:#fff;height:2.5rem;padding:.175rem .5rem;width:3rem;border:1px solid rgba(0,0,0,.25);float:left}
 .bootstrap-touchspin .btn-touchspin{background-color:#fff;border:1px solid rgba(0,0,0,.25);height:1.3125rem}
 .bootstrap-touchspin .btn-touchspin:hover{background-color:#f1f1f1}
+
+.bootstrap-touchspin .input-group-btn-vertical{position:relative;white-space:nowrap;width:1%;vertical-align:middle;display:table-cell}
+.bootstrap-touchspin .input-group-btn-vertical>.btn{display:block;float:none;width:100%;max-width:100%;padding:8px 10px;margin-left:-1px;position:relative}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{border-radius:0;border-top-right-radius:4px}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down{margin-top:-2px;border-radius:0;border-bottom-right-radius:4px}
+.bootstrap-touchspin .input-group-btn-vertical i{position:absolute;top:3px;left:5px;font-size:9px;font-weight:400}
+
+/*
+qwe
+
 .bootstrap-touchspin .input-group-btn-vertical{color:#232323;width:auto;float:left}
 .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down,.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{border-radius:0}
 .bootstrap-touchspin .input-group-btn-vertical .touchspin-up:after{content:"\E5CE"}
 .bootstrap-touchspin .input-group-btn-vertical .touchspin-down:after{content:"\E5CF"}
 .bootstrap-touchspin .input-group-btn-vertical i{top:.0625rem;left:.1875rem;font-size:.9375rem}
+*/
+.bootstrap-touchspin .input-group-btn-vertical{color:#232323;width:auto;float:left}
+.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down,.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{border-radius:0}
+.bootstrap-touchspin .input-group-btn-vertical .touchspin-up:after{content:"\f107";font-family: "Font Awesome 5 Free";}
+.bootstrap-touchspin .input-group-btn-vertical .touchspin-down:after{content:"\f107";font-family: "Font Awesome 5 Free";}
+.bootstrap-touchspin .input-group-btn-vertical i{top:.0625rem;left:.1875rem;font-size:.9375rem}
+
 .custom-radio{display:inline-block;position:relative;width:20px;height:20px;vertical-align:middle;cursor:pointer;border-radius:50%;border:2px solid #7a7a7a;background:#fff;margin-right:1.25rem}
 .custom-radio input[type=radio]{opacity:0;cursor:pointer}
 .custom-radio input[type=radio]:checked+span{display:block;background-color:#2fb5d2;width:12px;height:12px;border-radius:50%;position:absolute;left:.125rem;top:.125rem}

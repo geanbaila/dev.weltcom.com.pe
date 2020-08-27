@@ -343,16 +343,6 @@
 										aria-label="{l s='Search' d='Shop.Theme.Catalog'}"
 										class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary"
 										aria-describedby="searchProduct1" required>
-
-                                            <!-- Select
-                                            <select class="js-select selectpicker dropdown-select custom-search-categories-select"
-                                                data-style="btn height-40 text-gray-60 font-weight-normal border-top border-bottom border-left-0 rounded-0 border-primary border-width-2 pl-0 pr-5 py-2">
-                                                <option value="one" selected>Categorías</option>
-                                                <option value="two">Laptops</option>
-                                                <option value="three">Tablets</option>
-                                                <option value="four">Accesorios</option>
-                                            </select>
-                                            End Select -->
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-primary height-40 py-2 px-3 rounded-right-pill"  type="submit" id="searchProduct1">
                                                 <span class="ec ec-search font-size-24"></span>
@@ -387,12 +377,19 @@
 
                                             <!-- Input -->
                                             <div id="searchClassic" class="dropdown-menu dropdown-unfold dropdown-menu-right left-0 mx-2" aria-labelledby="searchClassicInvoker">
-                                                <form class="js-focus-state input-group px-3">
-                                                    <input class="form-control" type="search" placeholder="Buscar productos">
+                                                <form class="js-focus-state input-group px-3" method="get" action="{$search_controller_url}">
+                                                    <input type="hidden" name="controller" value="search">
+                                                    <input class="form-control" type="text" name="s" value="{$search_string}" 
+                                        placeholder="{l s='Search our catalog' d='Shop.Theme.Catalog'}" 
+                                        aria-label="{l s='Search' d='Shop.Theme.Catalog'}"
+                                        class="form-control py-2 pl-5 font-size-15 border-right-0 height-40 border-width-2 rounded-left-pill border-primary"
+                                        aria-describedby="searchProduct1" required>
                                                     <div class="input-group-append">
-                                                        <button class="btn btn-primary px-3" type="button"><i class="font-size-18 ec ec-search"></i></button>
+                                                        <button class="btn btn-primary px-3" type="submit"><i class="font-size-18 ec ec-search"></i></button>
                                                     </div>
                                                 </form>
+
+
                                             </div>
                                             <!-- End Input -->
                                         </li>
@@ -404,7 +401,7 @@
                                             <a href="STORE_URL?controller=cart&action=show" class="text-gray-90 position-relative d-flex " data-toggle="tooltip" data-placement="top" title="Cart">
                                                 <i class="font-size-22 ec ec-shopping-bag"></i>
                                                 <span class="bg-lg-down-black width-22 height-22 bg-primary position-absolute d-flex align-items-center justify-content-center rounded-circle left-12 top-8 font-weight-bold font-size-12">2</span>
-                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3">$1785.00 STORE_URL</span>
+                                                <span class="d-none d-xl-block font-weight-bold font-size-16 text-gray-90 ml-3"></span>
                                             </a>
                                         </li>
                                         <li>
