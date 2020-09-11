@@ -98,4 +98,12 @@
                 // initialization of select picker
                 $.HSCore.components.HSSelectPicker.init('.js-select');
             });
+
+
+              $(document).ready(function(){
+                var url = window.location.href
+                if(url.substr(url.length-9)!="index.php" && url.substr(url.length-14)!="weltcom.com.pe"){
+                    $('#menulaptops').trigger("click");
+                }
+              })
         </script>

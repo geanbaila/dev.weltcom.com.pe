@@ -22,8 +22,6 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-			
-
                             <!-- Search Bar -->
                             <div class="col d-none d-xl-block" data-search-controller-url="{$search_controller_url}">
                                 <form class="js-focus-state" method="get" action="{$search_controller_url}">
@@ -93,7 +91,7 @@
                                         <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Compare"><i class="font-size-22 ec ec-compare"></i></a></li>
                                         <li class="col d-none d-xl-block"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Favorites"><i class="font-size-22 ec ec-favorites"></i></a></li>
                                         -->
-                                        <li class="col d-xl-none px-2 px-sm-3"><a href="#" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="My Account"><i class="font-size-22 ec ec-user"></i></a></li>
+                                        <li class="col d-xl-none px-2 px-sm-3"><a href="/?controller=authentication&back=my-account" class="text-gray-90" data-toggle="tooltip" data-placement="top" title="Mi cuenta"><i class="font-size-22 ec ec-user"></i></a></li>
                                         <li class="col pr-xl-0 px-2 px-sm-3">
                                             {hook h='displayNav2'}
                                         </li>

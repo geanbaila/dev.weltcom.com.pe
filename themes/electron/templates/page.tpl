@@ -24,7 +24,6 @@
  *}
 {extends file=$layout}
 {block name='content'}
-<div class='geanbaila'>
   <section id="main">
 
     {block name='page_header_container'}
@@ -53,7 +52,4 @@
     {/block}
 
   </section>
-</div>
-{/block}
-
-
+{/block}  

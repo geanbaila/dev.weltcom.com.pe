@@ -24,10 +24,9 @@
  *}
 {block name='header_banner'}
   <div class="header-banner">
-    
   </div>
 {/block}
-
+{hook h='displayBanner'}
 <header id="header" class="u-header u-header-left-aligned-nav">
   <div class="u-header__section">
     <div class="py-2 py-xl-5 bg-primary-down-lg">
@@ -80,5 +79,4 @@
   </div>
   {hook h='displayNavFullWidth'}
 {/block}
-
 

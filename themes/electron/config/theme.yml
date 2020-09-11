@@ -151,7 +151,12 @@ global_settings:
       - name: displayNav0
         title: displayNav0
         description: displayNav0 for electron
+      - name: displayBanner
+        title: displayBanner
+        description: displayBanner for electron
     modules_to_hook:
+      displayBanner:
+        - weltcom
       displayNav0:
         - weltcom
       displayNav1:

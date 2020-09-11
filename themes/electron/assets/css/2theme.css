@@ -30642,7 +30642,7 @@ label.btn {
 ------------------------------------*/
 .svg-preloader {
   z-index: -1;
-  background: transparent url("http://localhost/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") center no-repeat !important;
+  background: transparent url("https://weltcom.com.pe/themes/electron/assets/svg/preloaders/circle-preloader.svg") center no-repeat !important;
   overflow: hidden;
   transition: all 0.4s ease-in;
 }
@@ -32744,7 +32744,7 @@ label.btn {
 }
 
 .u-slick {
-  background: url("http://localhost/weltcom/themes/electron/assets/svg/preloaders/circle-preloader.svg") no-repeat 50% 50%;
+  background: url("https://weltcom.com.pe/themes/electron/assets/svg/preloaders/circle-preloader.svg") no-repeat 50% 50%;
 }
 
 .u-slick .js-next,

@@ -86,7 +86,7 @@
                         <!-- Card -->
                         <div class="card border-0">
                             <div class="card-header card-collapse border-0" id="basicsHeadingOne">
-                                <button type="button" class="btn-link btn-remove-focus btn-block d-flex card-btn py-3 text-lh-1 px-4 shadow-none btn-primary rounded-top-lg border-0 font-weight-bold text-gray-90"
+                                <button type="button" id="menulaptops" class="btn-link btn-remove-focus btn-block d-flex card-btn py-3 text-lh-1 px-4 shadow-none btn-primary rounded-top-lg border-0 font-weight-bold text-gray-90"
                                     data-toggle="collapse"
                                     data-target="#basicsCollapseOne"
                                     aria-expanded="true"
@@ -94,7 +94,7 @@
                                     <span class="ml-0 text-gray-90 mr-2">
                                         <span class="fa fa-list-ul"></span>
                                     </span>
-                                    <span class="pl-1 text-gray-90">Productos</span>
+                                    <span class="pl-1 text-gray-90">Laptops</span>
                                 </button>
                             </div>
                             <div id="basicsCollapseOne" class="collapse show vertical-menu"
@@ -104,6 +104,9 @@
                                     <nav class="js-mega-menu navbar navbar-expand-xl u-header__navbar u-header__navbar--no-space hs-menu-initialized">
                                         <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
                                           {menu nodes=$menu.children}
+                                          <!--collapsed-->
+
+
                                         </div>
                                     </nav>
                                 </div>
@@ -148,4 +151,5 @@
         </div>
     </div>
   </div>
-</header>                                    
+</header>
+                   

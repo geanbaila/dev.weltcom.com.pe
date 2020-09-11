@@ -45,7 +45,7 @@
       <div class="col-md-12">
         <p class="text-sm-center">
           {block name='copyright_link'}
-            Gean Baila
+            
           {/block}
         </p>
       </div>

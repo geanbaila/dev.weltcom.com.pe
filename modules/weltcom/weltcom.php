@@ -19,7 +19,7 @@ class Weltcom extends Module{
 
 	public function install(){
 		if(!parent::install() || 
-			!Configuration::updateValue("STORE_URL","http://localhost/weltcom/weltcom") || 
+			!Configuration::updateValue("STORE_URL","http://localhost/weltcom") || 
 			!Configuration::updateValue("STORE_WHATSAPP_PHONE","51942805752") || 
 			!Configuration::updateValue("STORE_WHATSAPP_MESSAGE","Hola, visité su página web y quisiera hacerte una consulta.") || 
 			!$this->registerHook('displayProductAdditionalInfo') ||

@@ -1,3 +1,5 @@
+
+
 <!-- Logo-offcanvas-menu -->
                             <div class="col-auto">
                                 <!-- Nav -->
@@ -13,9 +15,9 @@
                                         </a>
                                     {/if}
                                     <!-- End Logo -->
-
+  
                                     <!-- Fullscreen Toggle Button -->
-                                    <button id="sidebarHeaderInvokerMenu" type="button" class="navbar-toggler d-block btn u-hamburger mr-3 mr-xl-0"
+                                    <button id="sidebarHeaderInvokerMenu" type="button" class="navbar-toggler d-none d-block d-xl-none btn u-hamburger mr-3 mr-xl-0"
                                         aria-controls="sidebarHeader"
                                         aria-haspopup="true"
                                         aria-expanded="false"
@@ -76,7 +78,7 @@
 
                                                             <!-- Top 100 Offers -->
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link font-weight-bold" href="#">Top 100 Offers</a>
+                                                                <a class="u-header-collapse__nav-link font-weight-bold" href="#">XXXXTop 100 Offers</a>
                                                             </li>
                                                             <!-- End Top 100 Offers -->
 
@@ -291,7 +293,7 @@
 
                                                 <!-- SVG Background Shape -->
                                                 <div class="position-absolute right-0 bottom-0 left-0 z-index-n1">
-                                                    <img class="js-svg-injector" src="https://transvelo.github.io/electro-html/2.0/assets/svg/components/wave-bottom-with-dots.svg" alt="Image Description"
+                                                    <img class="js-svg-injector" src="https://weltcom.com.pe/themes/electron/assets/svg/components/wave-bottom-with-dots.svg" alt="Image Description"
                                                     data-parent="#SVGwaveWithDots">
                                                 </div>
                                                 <!-- End SVG Background Shape -->

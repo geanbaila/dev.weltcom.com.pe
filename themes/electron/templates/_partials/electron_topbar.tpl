@@ -5,16 +5,18 @@
                     <div class="container">
                         <div class="d-flex align-items-center">
                             <div class="topbar-left">
-                                <a href="#" class="text-gray-110 font-size-13 hover-on-dark">Bienvenido a Weltcom, laptops, tablets, accesorios y más</a>
+                                <a href="#" class="text-gray-110 font-size-13 hover-on-dark">Bienvenido a Weltcom, laptops para todos.</a>
                             </div>
                             <div class="topbar-right ml-auto">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <a href="{$STORE_URL}/index.php?controller=contact" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
                                     </li>
+                                    <!--
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <a href="#" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Rastrea tu orden</a>
                                     </li>
+                                -->
                                     <!-- Language
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
                                         <div class="d-flex align-items-center">
@@ -56,7 +58,8 @@
                                             data-unfold-animation-in="fadeInRight"
                                             data-unfold-animation-out="fadeOutRight"
                                             data-unfold-duration="500">
-                                            <i class="ec ec-user mr-1"></i> Register <span class="text-gray-50">or</span> Sign in
+                                            <i class="font-size-22 ec ec-user"></i>
+
                                         </a>
                                         <!-- End Account Sidebar Toggle Button -->
 
