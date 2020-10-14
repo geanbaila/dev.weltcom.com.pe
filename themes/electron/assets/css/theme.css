@@ -1382,8 +1382,8 @@ qwe
 */
 .bootstrap-touchspin .input-group-btn-vertical{color:#232323;width:auto;float:left}
 .bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-down,.bootstrap-touchspin .input-group-btn-vertical .bootstrap-touchspin-up{border-radius:0}
-.bootstrap-touchspin .input-group-btn-vertical .touchspin-up:after{content:"\f107";font-family: "Font Awesome 5 Free";}
-.bootstrap-touchspin .input-group-btn-vertical .touchspin-down:after{content:"\f107";font-family: "Font Awesome 5 Free";}
+.bootstrap-touchspin .input-group-btn-vertical .touchspin-up:after{content:"\f106";font-family: "Font Awesome 5 Free";font-weight: 900;}
+.bootstrap-touchspin .input-group-btn-vertical .touchspin-down:after{content:"\f107";font-family: "Font Awesome 5 Free";font-weight: 900;}
 .bootstrap-touchspin .input-group-btn-vertical i{top:.0625rem;left:.1875rem;font-size:.9375rem}
 
 .custom-radio{display:inline-block;position:relative;width:20px;height:20px;vertical-align:middle;cursor:pointer;border-radius:50%;border:2px solid #7a7a7a;background:#fff;margin-right:1.25rem}

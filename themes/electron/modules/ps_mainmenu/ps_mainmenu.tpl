@@ -122,28 +122,21 @@
             <div class="col">
                 <!-- Nav -->
                 <nav class="js-mega-menu navbar navbar-expand-md u-header__navbar u-header__navbar--no-space">
-                    <!-- Navigation -->
+                    <!-- Navigation
                     <div id="navBar" class="collapse navbar-collapse u-header__navbar-collapse">
                         <ul class="navbar-nav u-header__navbar-nav">
-                            <!-- Featured Brands -->
                             <li class="nav-item u-header__nav-item">
                                 <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-labelledby="pagesSubMenu">De Altas Prestaciones</a>
                             </li>
-                            <!-- End Featured Brands -->
-                            <!-- Trending Styles -->
                             <li class="nav-item u-header__nav-item">
                                 <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false" aria-labelledby="blogSubMenu">Para La Familia</a>
                             </li>
-                            <!-- End Trending Styles -->
-                            <!-- Gift Cards -->
                             <li class="nav-item u-header__nav-item">
                                 <a class="nav-link u-header__nav-link" href="#" aria-haspopup="true" aria-expanded="false">Para El Cole</a>
                             </li>
-                            <!-- End Gift Cards -->
-                            
                         </ul>
                     </div>
-                    <!-- End Navigation -->
+                    End Navigation -->
                 </nav>
                 <!-- End Nav -->
             </div>

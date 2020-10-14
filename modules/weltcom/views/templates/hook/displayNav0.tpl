@@ -70,25 +70,32 @@
 
                                                         <!-- List -->
                                                         <ul id="headerSidebarList" class="u-header-collapse__nav">
-                                                            <!-- Value of the Day -->
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link font-weight-bold" href="#">_</a>
+                                                                <a class="u-header-collapse__nav-link" href="#">&nbsp;</a>
                                                             </li>
-                                                            <!-- End Value of the Day -->
-
-                                                            <!-- Top 100 Offers -->
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link font-weight-bold" href="#">XXXXTop 100 Offers</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/9-laptops-para-ejecutivos">Laptops para Ejecutivos </a>
                                                             </li>
-                                                            <!-- End Top 100 Offers -->
-
-                                                            <!-- New Arrivals -->
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link font-weight-bold" href="#">New Arrivals</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/11-laptops-para-gamers">Laptops para Gamers</a>
                                                             </li>
-                                                            <!-- End New Arrivals -->
-
-                                                            <!-- Computers & Accessories -->
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/13-laptops-para-creativos">Laptops para Creativos</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/14-laptops-extra-portatiles">Laptops Extra Portatiles</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/15-laptops-de-altas-prestaciones">Laptops de Altas Prestaciones</a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/16-para-la-familia">Para La Familia </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/17-para-el-cole">Para El Cole </a>
+                                                            </li>
+                                                            
+                                                            <!-- Computers & Accessories
                                                             <li class="u-has-submenu u-header-collapse__submenu">
                                                                 <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarComputersCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarComputersCollapse">
                                                                     Computers & Accessories
@@ -109,166 +116,9 @@
                                                                     </ul>
                                                                 </div>
                                                             </li>
-                                                            <!-- End Computers & Accessories -->
+                                                            End Computers & Accessories -->
 
-                                                            <!-- Cameras, Audio & Video -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarCamerasCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarCamerasCollapse">
-                                                                    Cameras, Audio & Video
-                                                                </a>
 
-                                                                <div id="headerSidebarCamerasCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Cameras & Photography</span></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Lenses</a></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Camera Accessories</a></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Security & Surveillance</a></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Binoculars & Telescopes</a></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Camcorders</a></li>
-                                                                        <li class=""><a class="u-header-collapse__submenu-nav-link" href="#">Software</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Audio & Video</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Audio & Video</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphones & Speakers</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Electronics</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Cameras, Audio & Video -->
-
-                                                            <!-- Mobiles & Tablets -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarMobilesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarMobilesCollapse">
-                                                                    Mobiles & Tablets
-                                                                </a>
-
-                                                                <div id="headerSidebarMobilesCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Mobiles & Tablets</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Mobile Phones</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Smartphones</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Refurbished Mobiles</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Cases & Covers</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Mobile Accessories</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Cases & Covers</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Tablets</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Tablet Accessories</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Electronics</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Mobiles & Tablets -->
-
-                                                            <!-- Movies, Music & Video -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarMoviesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarMoviesCollapse">
-                                                                    Movies, Music & Video
-                                                                </a>
-
-                                                                <div id="headerSidebarMoviesCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Movies & TV Shows</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Movies & TV Shows</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All English</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Hindi</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Video Games</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">PC Games</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Consoles</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Accessories</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Music</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Music</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Indian Classical</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Musical Instruments</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Movies, Music & Video -->
-
-                                                            <!-- TV & Audio -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarTvCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarTvCollapse">
-                                                                    TV & Audio
-                                                                </a>
-
-                                                                <div id="headerSidebarTvCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Audio & Video</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Audio & Video</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Televisions</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphones</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Speakers</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Audio & Video Accessories</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Music</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Televisions</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphones</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Electro Home Appliances</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End TV & Audio -->
-
-                                                            <!-- Watches & Eyewear -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarWatchesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarWatchesCollapse">
-                                                                    Watches & Eyewear
-                                                                </a>
-
-                                                                <div id="headerSidebarWatchesCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Watches</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Watches</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Men's Watches</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Women's Watches</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Premium Watches</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Deals on Watches</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Eyewear</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Men's Sunglasses</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Watches & Eyewear -->
-
-                                                            <!-- Car, Motorbike & Industrial -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarCarCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarCarCollapse">
-                                                                    Car, Motorbike & Industrial
-                                                                </a>
-
-                                                                <div id="headerSidebarCarCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Car & Motorbike</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Cars & Bikes</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Car & Bike Care</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Lubricants</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Shop for Bike</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Helmets & Gloves</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Bike Parts</a></li>
-                                                                        <li><span class="u-header-sidebar__sub-menu-title">Industrial Supplies</span></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Industrial Supplies</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Lab & Scientific</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Car, Motorbike & Industrial -->
-
-                                                            <!-- Accessories -->
-                                                            <li class="u-has-submenu u-header-collapse__submenu">
-                                                                <a class="u-header-collapse__nav-link u-header-collapse__nav-pointer" href="javascript:;" data-target="#headerSidebarAccessoriesCollapse" role="button" data-toggle="collapse" aria-expanded="false" aria-controls="headerSidebarAccessoriesCollapse">
-                                                                    Accessories
-                                                                </a>
-
-                                                                <div id="headerSidebarAccessoriesCollapse" class="collapse" data-parent="#headerSidebarContent">
-                                                                    <ul class="u-header-collapse__nav-list">
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Cases</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Chargers</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphone Accessories</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphone Cases</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Headphones</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">All Industrial Supplies</a></li>
-                                                                        <li><a class="u-header-collapse__submenu-nav-link" href="#">Lab & Scientific</a></li>
-                                                                    </ul>
-                                                                </div>
-                                                            </li>
-                                                            <!-- End Accessories -->
                                                         </ul>
                                                         <!-- End List -->
                                                     </div>
