@@ -89,10 +89,16 @@
                                                                 <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/15-laptops-de-altas-prestaciones">Laptops de Altas Prestaciones</a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/16-para-la-familia">Para La Familia </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/16-laptops-para-emprendedores">Laptops para Emprendedores </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/17-para-el-cole">Para El Cole </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/17-laptops-para-el-colegio">Laptops para el Colegio </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/19-laptops-para-la-oficina">Laptops para la Oficina </a>
+                                                            </li>
+                                                            <li class="">
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/20-laptops-para-usuarios-exigentes">Laptops para Usuarios Exigentes </a>
                                                             </li>
                                                             
                                                             <!-- Computers & Accessories

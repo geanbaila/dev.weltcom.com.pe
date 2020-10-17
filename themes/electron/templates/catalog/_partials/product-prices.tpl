@@ -35,7 +35,7 @@
 
     {block name='product_price'}
       <div
-        class="product-price h5 {if $product.has_discount}has-discount{/if}"
+        class="product-price h2 {if $product.has_discount}has-discount{/if}"
         itemprop="offers"
         itemscope
         itemtype="https://schema.org/Offer"
@@ -90,11 +90,13 @@
     {hook h='displayProductPriceBlock' product=$product type="weight" hook_origin='product_sheet'}
 
     <div class="tax-shipping-delivery-label">
+      <!-- qwe: taxes and delivery
       {if !$configuration.taxes_enabled}
         {l s='No tax' d='Shop.Theme.Catalog'}
       {elseif $configuration.display_taxes_label}
         {$product.labels.tax_long}
       {/if}
+
       {hook h='displayProductPriceBlock' product=$product type="price"}
       {hook h='displayProductPriceBlock' product=$product type="after_price"}
       {if $product.additional_delivery_times == 1}
@@ -109,6 +111,8 @@
           <span class="delivery-information">{$product.delivery_out_stock}</span>
         {/if}
       {/if}
+      -->
     </div>
   </div>
+  
 {/if}
