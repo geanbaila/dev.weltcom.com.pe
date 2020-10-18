@@ -5,18 +5,18 @@
                     <div class="container">
                         <div class="d-flex align-items-center">
                             <div class="topbar-left">
-                                <a href="#" class="text-gray-110 font-size-13 hover-on-dark">Bienvenido a Weltcom, laptops para todos.</a>
+                                <a href="#" class="text-header-110 font-size-14 hover-on-dark">Bienvenido a Weltcom, laptops para todos.</a>
                             </div>
                             <div class="topbar-right ml-auto">
                                 <ul class="list-inline mb-0">
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
-                                        <a href="{$STORE_URL}/index.php?controller=contact" class="u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
+                                        <a href="{$STORE_URL}/index.php?controller=contact" class="text-header-110 u-header-topbar__nav-link"><i class="ec ec-map-pointer mr-1"></i> Nuestra tienda</a>
                                     </li>
                                     <!--
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <a href="#" class="u-header-topbar__nav-link"><i class="ec ec-transport mr-1"></i> Rastrea tu orden</a>
                                     </li>
-                                -->
+                                    -->
                                     <!-- Language
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border u-header-topbar__nav-item-no-border u-header-topbar__nav-item-border-single">
                                         <div class="d-flex align-items-center">
@@ -47,7 +47,7 @@
                                     End Language -->
                                     <li class="list-inline-item mr-0 u-header-topbar__nav-item u-header-topbar__nav-item-border">
                                         <!-- Account Sidebar Toggle Button ?controller=authentication&create_account=1-->
-                                        <a id="sidebarNavToggler" href="{$STORE_URL}/index.php?controller=my-account" role="button" class="u-header-topbar__nav-link"
+                                        <a id="sidebarNavToggler" href="{$STORE_URL}/index.php?controller=my-account" role="button" class="text-header-110 u-header-topbar__nav-link"
                                             aria-controls="sidebarContent"
                                             aria-haspopup="true"
                                             aria-expanded="false"

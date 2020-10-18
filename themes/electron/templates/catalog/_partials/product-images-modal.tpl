@@ -27,8 +27,8 @@
     <div class="modal-content">
       <div class="modal-body">
         {assign var=imagesCount value=$product.images|count}
-        <figure>
-          <img class="js-modal-product-cover product-cover-modal" width="{$product.cover.large.width}" src="{$product.cover.large.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
+        <figure><!--width="{$product.cover.large.width}" -->
+          <img class="js-modal-product-cover product-cover-modal" height="500" width="500" src="{$product.cover.large.url}" alt="{$product.cover.legend}" title="{$product.cover.legend}" itemprop="image">
           <figcaption class="image-caption">
           {block name='product_description_short'}
             <div id="product-description-short" itemprop="description">{$product.description_short nofilter}</div>
@@ -41,7 +41,7 @@
               <ul class="product-images js-modal-product-images">
                 {foreach from=$product.images item=image}
                   <li class="thumb-container">
-                    <img data-image-large-src="{$image.large.url}" class="thumb js-modal-thumb" src="{$image.medium.url}" alt="{$image.legend}" title="{$image.legend}" width="{$image.medium.width}" itemprop="image">
+                    <img data-image-large-src="{$image.large.url}" class="align-left thumb js-modal-thumb" src="{$image.medium.url}" alt="{$image.legend}" title="{$image.legend}" width="{$image.medium.width}" itemprop="image">
                   </li>
                 {/foreach}
               </ul>

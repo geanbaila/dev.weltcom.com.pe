@@ -1941,7 +1941,7 @@ body#checkout .form-group{margin-bottom:.5rem}
 #product-modal .modal-content{background:transparent;border:none;padding:0}
 #product-modal .modal-content .modal-body{display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:-30%}
 #product-modal .modal-content .modal-body .product-cover-modal{background:#fff}
-#product-modal .modal-content .modal-body .image-caption{background:#fff;width:800px;padding:.625rem 1.25rem;border-top:1px solid #f1f1f1}
+#product-modal .modal-content .modal-body .image-caption{background:#fff;width:500px;padding:.625rem 1.25rem;border-top:1px solid #f1f1f1}
 #product-modal .modal-content .modal-body .image-caption p{margin-bottom:0}
 #product-modal .modal-content .modal-body .thumbnails{position:relative}
 #product-modal .modal-content .modal-body .mask{position:relative;overflow:hidden;max-height:49.38rem;margin-top:2.188rem;z-index:1}
