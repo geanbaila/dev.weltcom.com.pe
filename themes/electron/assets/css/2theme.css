@@ -8894,7 +8894,7 @@ a.close.disabled {
 .modal-dialog {
   position: relative;
   width: auto;
-  margin: 0.5rem;
+  margin-top: 4.5rem;
   pointer-events: none;
 }
 
@@ -9015,8 +9015,9 @@ a.close.disabled {
 }
 
 .modal-header .close {
-  padding: 1rem 1rem;
-  margin: -1rem -1rem -1rem auto;
+  /*padding: 1rem 1rem;
+  margin: -1rem -1rem -1rem auto;*/
+  margin-top: -2px;
 }
 
 .modal-title {
@@ -9063,7 +9064,7 @@ a.close.disabled {
 @media (min-width: 576px) {
   .modal-dialog {
     max-width: 500px;
-    margin: 1.75rem auto;
+    margin: 5.75rem auto;
   }
   .modal-dialog-scrollable {
     max-height: calc(100% - 3.5rem);
@@ -37482,4 +37483,10 @@ Box
 
 .wave-bottom-with-dots-1 {
     fill: #ff9243 !important;
+}
+
+
+#blockcart-modal .modal-title i..modal-dialog {
+    margin-right: 1.875rem;
+    color: #4cbb6c;
 }
