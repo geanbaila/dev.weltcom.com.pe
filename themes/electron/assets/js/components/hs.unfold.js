@@ -410,11 +410,12 @@
 			}
 			
 			target.removeClass('u-unfold--reverse-y');
-			
+			if(typeof target.get(0) === 'object'){
 			var $w = $(window),
 				styles = getComputedStyle(target.get(0)),
 				direction = Math.abs(parseInt(styles.left, 10)) < 40 ? 'left' : 'right',
 				targetOuterGeometry = target.offset();
+			}else{ return false;}
 			
 			// horizontal axis
 			if (direction === 'right') {
