@@ -69,10 +69,10 @@
   {$HOOK_HEADER nofilter}
 {/block}
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<!--<link rel="stylesheet" href="https://weltcom.com.pe/themes/electron/assets/css/2theme.css?v=7" type="text/css" media="all">-->
 
-<link rel="stylesheet" href="http://localhost/weltcom/themes/electron/assets/css/2theme.css?v=8" type="text/css" media="all">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link rel="stylesheet" href="https://weltcom.com.pe/themes/electron/assets/css/2theme.css?v=06022021" type="text/css" media="all">
 
 <script>
   window.FontAwesomeConfig = {

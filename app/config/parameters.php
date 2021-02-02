@@ -3,10 +3,20 @@
   array (
     'database_host' => '127.0.0.1',
     'database_port' => '',
+  
+    'database_name' => 'nuitip_pres602',
+    'database_user' => 'root',
+    'database_password' => 'root',
+    'database_prefix' => 'psbq_',
+
+/*
+
     'database_name' => 'weltcom',
     'database_user' => 'root',
     'database_password' => 'root',
     'database_prefix' => 'ps_',
+*/
+
     'database_engine' => 'InnoDB',
     'mailer_transport' => 'smtp',
     'mailer_host' => '127.0.0.1',

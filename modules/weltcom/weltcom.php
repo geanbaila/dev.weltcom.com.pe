@@ -22,12 +22,8 @@ class Weltcom extends Module{
 			!Configuration::updateValue("STORE_URL","http://localhost/weltcom") || 
 			!Configuration::updateValue("STORE_WHATSAPP_PHONE","51942805752") || 
 			!Configuration::updateValue("STORE_WHATSAPP_MESSAGE","Hola, visité su página web y quisiera hacerte una consulta.") || 
-			!$this->registerHook('displayProductAdditionalInfo') ||
 			!$this->registerHook('displayBanner') ||
 			!$this->registerHook('displayAfterBodyOpeningTag') ||
-			// !$this->registerHook('displayNav3') ||
-			// !$this->registerHook('displayNav4') ||
-			// !$this->registerHook('displayNav2') ||
 			!$this->registerHook('displayNav0')
 			
 		){
@@ -66,12 +62,6 @@ class Weltcom extends Module{
 		return $this->display(__FILE__,"configure.tpl");
 	}
 
-	public function hookDisplayProductAdditionalInfo($params){
-		//return "he aquí mi primer hook ;)";
-		$this->context->smarty->assign("frase", "he aquí mi primer hook ;)");
-		return $this->display(__FILE__, 'displayProductAdditionalInfo.tpl');
-	}
-
 	public function hookDisplayBanner($params){
 		$url = Configuration::get("STORE_URL");
 		$whatsappPhone = Configuration::get("STORE_WHATSAPP_PHONE");
@@ -95,18 +85,6 @@ class Weltcom extends Module{
 		$this->context->smarty->assign("STORE_WHATSAPP_DOMAIN",$whatsappDomain);
 		return $this->display(__FILE__, "displayAfterBodyOpeningTag.tpl");
 	}
-
-	public function hookDisplayNav3($params){
-		return $this->display(__FILE__, "displayNav3.tpl");
-	}
-
-	public function hookDisplayNav4($params){
-		return $this->display(__FILE__, "displayNav4.tpl");
-	}
-
-	public function hookDisplayNav2($params){
-		return $this->display(__FILE__, "displayNav2.tpl");
-	} 
 
 	public function hookDisplayNav0($params){
 		return $this->display(__FILE__, "displayNav0.tpl");

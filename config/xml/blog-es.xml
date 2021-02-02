@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="https://www.prestashop.com/es/blog/feed.xml" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:og="http://ogp.me/ns#" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:sioc="http://rdfs.org/sioc/ns#" xmlns:sioct="http://rdfs.org/sioc/types#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <channel>
+    <title>Blog Feed</title>
+    <link>https://www.prestashop.com/es/blog/feed.xml</link>
+    <description></description>
+    <language>es</language>
+     <atom:link href="https://www.prestashop.com/es/blog/feed.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Buenas prácticas para vender Online con el Checkout Pro de Mercado Pago</title>
+    <link>https://www.prestashop.com/es/blog/buenas-practicas-mercado-pago</link>
+    <description>¡Descubre cómo la combinación de una plataforma ideal y una solución de pagos en línea completa hacen que tu tienda venda mucho más!</description>
+     <pubDate>Fri, 04 Dec 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Mercado Pago</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/buenas-practicas-mercado-pago</guid>
+  </item>
+  <item>
+    <title>¿Cómo configurar los límites de envío de un transportista?</title>
+    <link>https://www.prestashop.com/es/blog/limites-envio-transportista</link>
+    <description>La logística para eCommerce es clave tanto desde el punto de vista del usuario y su experiencia de compra, como en la gestión in</description>
+     <pubDate>Wed, 02 Dec 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Alejandro Ramos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/limites-envio-transportista</guid>
+  </item>
+  <item>
+    <title>¿Qué es la logística para eCommerce? Beneficios y consejos para mejorarla</title>
+    <link>https://www.prestashop.com/es/blog/logistica-ecommerce</link>
+    <description>La logística para eCommerce es el proceso que comprende todas las acciones necesarias que hay que llevar a cabo desde el momento en que una persona ordena su pedido hasta que lo re</description>
+     <pubDate>Mon, 30 Nov 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/logistica-ecommerce</guid>
+  </item>
+  <item>
+    <title>Datos del Black Friday y las ventas de final de año</title>
+    <link>https://www.prestashop.com/es/blog/datos-black-friday</link>
+    <description>El Black Friday se ha convertido en un evento comercial imprescindible en muchos países y suele marcar el inicio de las ventas para las fiestas navideñas.</description>
+     <pubDate>Fri, 27 Nov 2020 00:00:00 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/datos-black-friday</guid>
+  </item>
+  <item>
+    <title>Kelme ¡un eCommerce de deporte con mucha garra!</title>
+    <link>https://www.prestashop.com/es/blog/kelme</link>
+    <description>En PrestaShop creemos que es muy interesante identificar proyectos que consideramos casos de éxito y analizarlos.</description>
+     <pubDate>Thu, 26 Nov 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/kelme</guid>
+  </item>
+  <item>
+    <title> 3 predicciones para las Compras de la Temporada de Fiestas de 2020</title>
+    <link>https://www.prestashop.com/es/blog/predicciones-compras-temporada-fiestas</link>
+    <description>La Temporada de Fiestas de 2020 será diferente a todas las demás.</description>
+     <pubDate>Wed, 25 Nov 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Edwina Yvonne Dendler</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/predicciones-compras-temporada-fiestas</guid>
+  </item>
+  <item>
+    <title>¿Cómo gestionar métodos locales de pago en tu eCommerce?</title>
+    <link>https://www.prestashop.com/es/blog/metodos-locales-de-pago</link>
+    <description>El pago Online es todo un mundo en el eCommerce y lo queremos descubrir contigo.</description>
+     <pubDate>Mon, 23 Nov 2020 09:00:00 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/metodos-locales-de-pago</guid>
+  </item>
+  <item>
+    <title>¿Qué es el Click &amp;amp; Collect y cómo configurarlo rápidamente?</title>
+    <link>https://www.prestashop.com/es/blog/click-and-collect</link>
+    <description>La segunda ola de la epidemia de la COVID-19 obligó a muchos países a adoptar nuevas medidas sanitarias, en particular en Europa: vue</description>
+     <pubDate>Fri, 20 Nov 2020 09:00:00 +0100</pubDate>
+ <dc:creator>Jorge González Marcos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/click-and-collect</guid>
+  </item>
+  <item>
+    <title>¿Cómo migrar tu tienda PrestaShop a un nuevo servidor?</title>
+    <link>https://www.prestashop.com/es/blog/como-migrar-prestashop-un-nuevo-servidor</link>
+    <description>¿Estás pensando en migrar tu PrestaShop a un nuevo servidor que intuyes que te dará mejores prestaciones?</description>
+     <pubDate>Wed, 18 Nov 2020 00:00:00 +0100</pubDate>
+ <dc:creator>Alejandro Ramos</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/como-migrar-prestashop-un-nuevo-servidor</guid>
+  </item>
+  <item>
+    <title>¿Cómo diseñar y aplicar una estrategia eCommerce B2B?</title>
+    <link>https://www.prestashop.com/es/blog/estrategia-ecommerce-b2b</link>
+    <description>Según un estudio reciente de Gartner, el 27 % de los compradores B2B ya inician su proceso de toma de decisiones Online.</description>
+     <pubDate>Mon, 16 Nov 2020 10:00:00 +0100</pubDate>
+ <dc:creator>Toni Expósito</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/es/blog/estrategia-ecommerce-b2b</guid>
+  </item>
+  </channel>
+</rss>
