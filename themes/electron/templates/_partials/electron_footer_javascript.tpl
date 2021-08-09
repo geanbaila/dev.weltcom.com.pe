@@ -100,10 +100,12 @@
             });
 
 
+              
               $(document).ready(function(){
                 var url = window.location.href;
-                if(url.substr(url.length-15)!="weltcom.com.pe/"){
+                
+                if(url.substr(-15)=="/weltcom.com.pe" || url.substr(-15)!=="weltcom.com.pe/"){
                     $('#menulaptops').trigger("click");
                 }
-              })
+              });
         </script>

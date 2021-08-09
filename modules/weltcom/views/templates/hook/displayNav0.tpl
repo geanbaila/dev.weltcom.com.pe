@@ -74,32 +74,35 @@
                                                                 <a class="u-header-collapse__nav-link" href="#">&nbsp;</a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/9-laptops-para-ejecutivos">Laptops para Ejecutivos </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/12-laptops-para-emprendedores">Laptops para Emprendedores </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/11-laptops-para-gamers">Laptops para Gamers</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/9-laptops-para-creativos">Laptops para Creativos</a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/13-laptops-para-creativos">Laptops para Creativos</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/15-para-estudiantes-exigentes">Laptops para Estudiantes Exigentes </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/14-laptops-extra-portatiles">Laptops Extra Portatiles</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/3-laptops-para-ejecutivos">Laptops para Ejecutivos </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/15-laptops-de-altas-prestaciones">Laptops de Altas Prestaciones</a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/6-laptops-para-gamers">Laptops para Gamers</a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/16-laptops-para-emprendedores">Laptops para Emprendedores </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/13-laptops-para-el-colegio">Laptops para el Colegio </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/17-laptops-para-el-colegio">Laptops para el Colegio </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/14-laptops-para-la-oficina">Laptops para la Oficina </a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/19-laptops-para-la-oficina">Laptops para la Oficina </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/10-laptops-extra-portatiles">Laptops Extra Portatiles</a>
                                                             </li>
                                                             <li class="">
-                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/20-laptops-para-usuarios-exigentes">Laptops para Usuarios Exigentes </a>
+                                                                <a class="u-header-collapse__nav-link" href="https://weltcom.com.pe/11-laptops-de-altas-prestaciones">Laptops de Altas Prestaciones</a>
                                                             </li>
+                                                            
+                                                            
+                                                            
                                                             
                                                             <!-- Computers & Accessories
                                                             <li class="u-has-submenu u-header-collapse__submenu">

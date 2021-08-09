@@ -145,6 +145,7 @@
             <span class="input-group-btn">
               <button
                 class="btn"
+                style="z-index: 999 !important;margin-left: -80px !important;line-height: 1.8; !important"
                 type="button"
                 data-action="show-password"
                 data-text-show="{l s='Show' d='Shop.Theme.Actions'}"

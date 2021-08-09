@@ -160,7 +160,7 @@ global_settings:
       displayNav0:
         - weltcom
       displayNav1:
-        #- ps_contactinfo
+        - ps_contactinfo
         - ps_searchbar
       displayNav2:
         - ps_languageselector
@@ -170,6 +170,7 @@ global_settings:
       displayNav3:
         #- weltcom
       displayTop:
+        - ps_shoppingcart
         - ps_mainmenu
       displayHome:
         - ps_imageslider

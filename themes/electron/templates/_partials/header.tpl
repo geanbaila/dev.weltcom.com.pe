@@ -22,6 +22,7 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+
 {block name='header_banner'}
   <div class="header-banner">
   </div>
@@ -34,7 +35,7 @@
         <div class="row align-items-center">
         {hook h='displayNav0'}
         {hook h='displayNav1'}
-        
+
         </div>
       </div>
     </div>
@@ -65,6 +66,10 @@
   <div class="header-top">
     <div class="container">
       {hook h='displayTop'}
+      
+
+
+      
       
       <!--
       <div id="mobile_top_menu_wrapper" class="row hidden-md-up" style="display:none;">

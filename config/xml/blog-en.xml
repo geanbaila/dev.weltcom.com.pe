@@ -6,84 +6,84 @@
     <language>en</language>
      <atom:link href="https://www.prestashop.com/en/blog/feed.xml" rel="self" type="application/rss+xml" />
       <item>
-    <title>All you need to know about built-in modules </title>
-    <link>https://www.prestashop.com/en/blog/built-in-modules</link>
-    <description>Do you know that PrestaShop 1.7.7 comes with 88 built-in modules? That is 88 ways for merchants to start their online store and empower their business, directly from their back office.</description>
-     <pubDate>Mon, 01 Feb 2021 18:18:49 +0100</pubDate>
- <dc:creator>Julie Varisellaz</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/built-in-modules</guid>
+    <title>Women in tech – Interview with our PrestaShop ambassadress Catherine Valmalette</title>
+    <link>https://www.prestashop.com/en/blog/women-tech-catherine-valmalette</link>
+    <description>We are back with a new &quot;Women in tech&quot; article! This month, we will discuss the situation of French women who work in the tech industry.</description>
+     <pubDate>Mon, 24 May 2021 16:54:08 +0200</pubDate>
+ <dc:creator>Océane Juste</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/women-tech-catherine-valmalette</guid>
   </item>
   <item>
-    <title>Top 5 linkbuilding strategies for online stores</title>
-    <link>https://www.prestashop.com/en/blog/linkbuilding-strategies-ecommerce</link>
-    <description>Are you looking for a great way to boost your online presence? If you have an online business, you have probably already noticed that the competition is huge.</description>
-     <pubDate>Fri, 29 Jan 2021 16:29:17 +0100</pubDate>
+    <title>Seven ecommerce web design advices to boost conversions </title>
+    <link>https://www.prestashop.com/en/blog/ecommerce-web-design</link>
+    <description>Have you ever wondered what are the reasons behind your cart abandonment or why your visitors are not even spending the average time on your website? </description>
+     <pubDate>Wed, 19 May 2021 17:43:00 +0200</pubDate>
+ <dc:creator>Fulfillment Bridge</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-web-design</guid>
+  </item>
+  <item>
+    <title>How to choose a payment gateway for your e-shop</title>
+    <link>https://www.prestashop.com/en/blog/payment-gateway-shop</link>
+    <description>The coronavirus has forced merchants to shift their business model and focus more on online sales, in order to keep up with circumstances and demand.  That is why so many merchants choose PrestaSho</description>
+     <pubDate>Tue, 18 May 2021 18:19:24 +0200</pubDate>
+ <dc:creator>Alexandros Pappas</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/payment-gateway-shop</guid>
+  </item>
+  <item>
+    <title>Six marketing actions to boost your sales</title>
+    <link>https://www.prestashop.com/en/blog/marketing-actions-boost</link>
+    <description>We have listed several tips and tricks that, combined with the right PrestaShop modules, can help you optimize your online sto</description>
+     <pubDate>Mon, 17 May 2021 18:46:47 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/marketing-actions-boost</guid>
+  </item>
+  <item>
+    <title>Ecommerce marketing automation: 6 workflows that boost sales</title>
+    <link>https://www.prestashop.com/en/blog/ecommerce-marketing-automation</link>
+    <description>Ecommerce marketing automation is important to the success of digital marketing campaigns. It saves valuable time and money while increasing the effectiveness of your activities. </description>
+     <pubDate>Tue, 11 May 2021 20:48:36 +0200</pubDate>
+ <dc:creator>Jenna Alburger</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-marketing-automation</guid>
+  </item>
+  <item>
+    <title>Keeping focus and standing out by making your store the experts within your area </title>
+    <link>https://www.prestashop.com/en/blog/standing-out-experts-area</link>
+    <description>It’s never a good idea to spread yourself too thin - everybody knows that.</description>
+     <pubDate>Wed, 05 May 2021 09:48:25 +0200</pubDate>
  <dc:creator>bulldesign</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/linkbuilding-strategies-ecommerce</guid>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/standing-out-experts-area</guid>
   </item>
   <item>
-    <title>Logistics, optimize the process and boost your e-commerce</title>
-    <link>https://www.prestashop.com/en/blog/logistics-optimize-process</link>
-    <description>Imagine e-commerce as a big iceberg. The part above water, the tip of the iceberg, is the part we can see, like everything that reaches the end user.</description>
-     <pubDate>Tue, 26 Jan 2021 14:37:43 +0100</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/logistics-optimize-process</guid>
+    <title> How shipping automation helps ecommerce businesses scale profitably</title>
+    <link>https://www.prestashop.com/en/blog/shipping-automation-scale</link>
+    <description>As your ecommerce business grows, your operations inevitably become more complex.</description>
+     <pubDate>Tue, 04 May 2021 17:00:39 +0200</pubDate>
+ <dc:creator>James Messer</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/shipping-automation-scale</guid>
   </item>
   <item>
-    <title>VAT &amp;amp; Brexit, the changes for merchants</title>
-    <link>https://www.prestashop.com/en/blog/brexit-vat</link>
-    <description>On December 31, 2020, the United Kingdom definitively left the European Union, making Brexit official.</description>
-     <pubDate>Wed, 20 Jan 2021 17:16:23 +0100</pubDate>
- <dc:creator>Tanguy Jacquet .</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/brexit-vat</guid>
+    <title>Use Case: How the online store Les Raffineurs managed to grow thanks to Klaviyo&amp;#039;s PrestaShop integration</title>
+    <link>https://www.prestashop.com/en/blog/klaviyo-prestashop-integration</link>
+    <description>In 2014, Julien Bergis and Romain Jourdan had the original idea for what would later become </description>
+     <pubDate>Fri, 16 Apr 2021 15:46:15 +0200</pubDate>
+ <dc:creator>PrestaShop Team</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/klaviyo-prestashop-integration</guid>
   </item>
   <item>
-    <title>Amazon Pay optimizes the checkout experience for PrestaShop businesses with its latest release  </title>
-    <link>https://www.prestashop.com/en/blog/amazon-pay-prestashop</link>
-    <description>Now PrestaShop merchants can optimize their checkout experience for Amazon customers with the latest release from Amazon Pay.</description>
-     <pubDate>Mon, 18 Jan 2021 18:14:07 +0100</pubDate>
- <dc:creator>Alberto Moreno</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/amazon-pay-prestashop</guid>
+    <title>3 customer acquisition tips for your online store</title>
+    <link>https://www.prestashop.com/en/blog/customer-acquisition-tips</link>
+    <description>For ecommerce businesses—whether you have 10 or 10,000 customers—increasing your customer base is essential to growing your br</description>
+     <pubDate>Wed, 14 Apr 2021 15:01:32 +0200</pubDate>
+ <dc:creator>Aubrey Harper</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/customer-acquisition-tips</guid>
   </item>
   <item>
-    <title>E-commerce and logistics, how to optimize your orders and shipments</title>
-    <link>https://www.prestashop.com/en/blog/ecommerce-logistics-optimize</link>
-    <description>When it comes to e-commerce logistics, or, more specifically, when it comes to saving time, you can always rely on automation.</description>
-     <pubDate>Thu, 14 Jan 2021 14:47:02 +0100</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-logistics-optimize</guid>
-  </item>
-  <item>
-    <title>Logistics, proprietary warehouse or dropshipping?</title>
-    <link>https://www.prestashop.com/en/blog/logistics-warehouse-dropshipping</link>
-    <description>One of the longest-running dilemmas in the history of online commerce is whether to sell in dropshipping or stockpile.</description>
-     <pubDate>Tue, 12 Jan 2021 18:10:14 +0100</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/logistics-warehouse-dropshipping</guid>
-  </item>
-  <item>
-    <title>Ten useful tips for your e-commerce logistics</title>
-    <link>https://www.prestashop.com/en/blog/tips-e-commerce-logistics</link>
-    <description>If marketing is the mind of your e-commerce, logistics is its beating heart. This is why it must always be kept under control and running smoothly.</description>
-     <pubDate>Thu, 07 Jan 2021 12:20:04 +0100</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/tips-e-commerce-logistics</guid>
-  </item>
-  <item>
-    <title>How can outsourcing inventory management be beneficial for a webshop? </title>
-    <link>https://www.prestashop.com/en/blog/inventory-management-webshop</link>
-    <description>In the era of online shopping, we see many physical stores close down and move their business online.</description>
-     <pubDate>Tue, 05 Jan 2021 11:18:21 +0100</pubDate>
- <dc:creator>bulldesign</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/inventory-management-webshop</guid>
-  </item>
-  <item>
-    <title>Differences between online store and marketplace: which one is right for you?</title>
-    <link>https://www.prestashop.com/en/blog/differences-marketplace-ecommerce</link>
-    <description>Selling online is becoming increasingly simple and profitable over time. Using digital market is now much safer than in years past.</description>
-     <pubDate>Mon, 14 Dec 2020 17:58:22 +0100</pubDate>
- <dc:creator>luca mastroianni</dc:creator>
- <guid isPermaLink="false">https://www.prestashop.com/en/blog/differences-marketplace-ecommerce</guid>
+    <title>E-commerce in Germany: Opportunities and challenges amidst the Covid-19 pandemic</title>
+    <link>https://www.prestashop.com/en/blog/ecommerce-opportunities-challenges</link>
+    <description>The pandemic has sped up digital transformation and driven e-commerce growth all around the world. This is especially true for e-commerce in Germany.</description>
+     <pubDate>Mon, 12 Apr 2021 17:14:45 +0200</pubDate>
+ <dc:creator>Océane Juste</dc:creator>
+ <guid isPermaLink="false">https://www.prestashop.com/en/blog/ecommerce-opportunities-challenges</guid>
   </item>
   </channel>
 </rss>

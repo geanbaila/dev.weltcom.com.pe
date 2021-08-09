@@ -35,6 +35,10 @@ jQuery(document).ready(function () {
   emptyProductComment.hide();
   $('.grade-stars').rating();
 
+  prestashop.on('updatedProduct', function() {
+    $('.product-comments-additional-info .grade-stars').rating();
+  })
+
   document.addEventListener('updateRating', function() {
     $('.grade-stars').rating();
   });
@@ -56,9 +60,7 @@ jQuery(document).ready(function () {
   }
 
   function paginateComments(page) {
-    $.get(commentsListUrl, {page: page}, function(result) {
-      const jsonResponse = JSON.parse(result);
-
+    $.get(commentsListUrl, {page: page}, function(jsonResponse) {
       if (jsonResponse.comments && jsonResponse.comments.length > 0) {
         populateComments(jsonResponse.comments);
         if (jsonResponse.comments_nb > jsonResponse.comments_per_page) {
@@ -123,12 +125,7 @@ jQuery(document).ready(function () {
   }
 
   function updateCommentUsefulness($comment, commentId, usefulness) {
-    $.post(updateCommentUsefulnessUrl, {id_product_comment: commentId, usefulness: usefulness}, function(jsonResponse){
-      var jsonData = false;
-      try {
-        jsonData = JSON.parse(jsonResponse);
-      } catch (e) {
-      }
+    $.post(updateCommentUsefulnessUrl, {id_product_comment: commentId, usefulness: usefulness}, function(jsonData){
       if (jsonData) {
         if (jsonData.success) {
           $('.useful-review-value', $comment).html(jsonData.usefulness);
@@ -151,12 +148,7 @@ jQuery(document).ready(function () {
       if (!confirm) {
         return;
       }
-      $.post(reportCommentUrl, {id_product_comment: commentId}, function(jsonResponse){
-        var jsonData = false;
-        try {
-          jsonData = JSON.parse(jsonResponse);
-        } catch (e) {
-        }
+      $.post(reportCommentUrl, {id_product_comment: commentId}, function(jsonData){
         if (jsonData) {
           if (jsonData.success) {
             reportCommentPostedModal.modal('show');

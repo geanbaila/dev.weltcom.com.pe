@@ -23,6 +23,21 @@
  * International Registered Trademark & Property of PrestaShop SA
  *}
 <div id="_desktop_cart">
+<!-- qwe 
+  <div class="blockcart cart-preview {if $cart.products_count > 0}active{else}inactive{/if}" data-refresh-url="{$refresh_url}">
+    <div class="header">
+      {if $cart.products_count > 0}
+        <a rel="nofollow" href="{$cart_url}">
+      {/if}
+        <span class="hidden-sm-down">{l s='Cart' d='Shop.Theme.Checkout'}</span>
+        <span class="cart-products-count">({$cart.products_count})</span>
+      {if $cart.products_count > 0}
+        </a>
+      {/if}
+    </div>
+  </div>
+-->
+
         <div id="basicDropdownHoverInvoker" class="blockcart cart-preview text-gray-90 position-relative d-flex " data-refresh-url="{$refresh_url}"
             data-toggle="tooltip" 
             data-placement="top" 

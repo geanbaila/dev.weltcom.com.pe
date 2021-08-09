@@ -22,6 +22,8 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
+
+hoooooooola 
 <span class="product-quantity">{$product.quantity}</span>
 <span class="product-name">{$product.name}</span>
 <span class="product-price">{$product.price}</span>

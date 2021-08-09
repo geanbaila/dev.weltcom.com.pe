@@ -1,6 +1,6 @@
 <?php
 /**
- * 2007-2020 PrestaShop and Contributors
+ * 2007-2018 PrestaShop.
  *
  * NOTICE OF LICENSE
  *
@@ -12,8 +12,14 @@
  * obtain it through the world-wide-web, please send an email
  * to license@prestashop.com so we can send you a copy immediately.
  *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+ * versions in the future. If you wish to customize PrestaShop for your
+ * needs please refer to http://www.prestashop.com for more information.
+ *
  * @author    PrestaShop SA <contact@prestashop.com>
- * @copyright 2007-2020 PrestaShop SA and Contributors
+ * @copyright 2007-2018 PrestaShop SA
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  */
@@ -62,7 +68,7 @@ class Ps_Linklist extends Module implements WidgetInterface
     {
         $this->name = 'ps_linklist';
         $this->author = 'PrestaShop';
-        $this->version = '3.2.0';
+        $this->version = '3.1.0';
         $this->need_instance = 0;
         $this->tab = 'front_office_features';
         $this->tabs = [
@@ -94,7 +100,11 @@ class Ps_Linklist extends Module implements WidgetInterface
             return false;
         }
 
-        $installed = $this->installFixtures();
+        if (null !== $this->getRepository()) {
+            $installed = $this->installFixtures();
+        } else {
+            $installed = $this->installLegacyFixtures();
+        }
 
         if ($installed
             && $this->registerHook('displayFooter')
@@ -125,33 +135,35 @@ class Ps_Linklist extends Module implements WidgetInterface
     private function installFixtures()
     {
         $installed = true;
-        $result = $this->getRepository()->createTables();
-        if (false === $result || (is_array($result) && !empty($result))) {
-            if (is_array($result)) {
-                $this->addModuleErrors($result);
-            }
+        $errors = $this->getRepository()->createTables();
+        if (!empty($errors)) {
+            $this->addModuleErrors($errors);
             $installed = false;
         }
 
-        $result = $this->getRepository()->installFixtures();
-        if (false === $result || (is_array($result) && !empty($result))) {
-            if (is_array($result)) {
-                $this->addModuleErrors($result);
-            }
+        $errors = $this->getRepository()->installFixtures();
+        if (!empty($errors)) {
+            $this->addModuleErrors($errors);
             $installed = false;
         }
 
         return $installed;
     }
 
+    /**
+     * @return bool
+     */
+    private function installLegacyFixtures()
+    {
+        return $this->legacyBlockRepository->createTables() && $this->legacyBlockRepository->installFixtures();
+    }
+
     public function uninstall()
     {
         $uninstalled = true;
-        $result = $this->getRepository()->dropTables();
-        if (false === $result || (is_array($result) && !empty($result))) {
-            if (is_array($result)) {
-                $this->addModuleErrors($result);
-            }
+        $errors = $this->getRepository()->dropTables();
+        if (!empty($errors)) {
+            $this->addModuleErrors($errors);
             $uninstalled = false;
         }
 
@@ -243,37 +255,26 @@ class Ps_Linklist extends Module implements WidgetInterface
     }
 
     /**
-     * @return LinkBlockRepository|LegacyLinkBlockRepository|null
+     * @return LinkBlockRepository|null
      */
     private function getRepository()
     {
-        if (null === $this->repository) {
+        if (null === $this->repository && $this->isSymfonyContext()) {
             try {
                 $this->repository = $this->get('prestashop.module.link_block.repository');
-            } catch (Throwable $e) {
-                try {
-                    $container = SymfonyContainer::getInstance();
-                    if (null !== $container) {
-                        //Module is not installed so its services are not loaded
-                        /** @var LegacyContext $context */
-                        $legacyContext = $container->get('prestashop.adapter.legacy.context');
-                        /** @var Context $shopContext */
-                        $shopContext = $container->get('prestashop.adapter.shop.context');
-                        $this->repository = new LinkBlockRepository(
-                            $container->get('doctrine.dbal.default_connection'),
-                            $container->getParameter('database_prefix'),
-                            $legacyContext->getLanguages(true, $shopContext->getContextShopID()),
-                            $container->get('translator')
-                        );
-                    }
-                } catch (Throwable $e) {
-                }
+            } catch (\Exception $e) {
+                //Module is not installed so its services are not loaded
+                /** @var LegacyContext $context */
+                $legacyContext = $this->get('prestashop.adapter.legacy.context');
+                /** @var Context $shopContext */
+                $shopContext = $this->get('prestashop.adapter.shop.context');
+                $this->repository = new LinkBlockRepository(
+                    $this->get('doctrine.dbal.default_connection'),
+                    SymfonyContainer::getInstance()->getParameter('database_prefix'),
+                    $legacyContext->getLanguages(true, $shopContext->getContextShopID()),
+                    $this->get('translator')
+                );
             }
-        }
-
-        // Container is not available so we use legacy repository as fallback
-        if (!$this->repository) {
-            $this->repository = $this->legacyBlockRepository;
         }
 
         return $this->repository;

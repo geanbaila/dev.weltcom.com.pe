@@ -22,7 +22,20 @@
  * @license   https://opensource.org/licenses/AFL-3.0 Academic Free License 3.0 (AFL-3.0)
  * International Registered Trademark & Property of PrestaShop SA
  *}
-<div class="col-md-6 links">
+<style>
+.footer-container{
+    background-color: #000;
+    color: #fff;
+}
+.footer-container span, .footer-container p, .footer-container p a{
+    color: #ff9243 !important;
+}
+.footer-container li a{
+    color: #fff;
+}
+
+</style>
+<div class="col-md-6 links weltcom-footer">
   <div class="row">
   {foreach $linkBlocks as $linkBlock}
     <div class="col-md-6 wrapper">
@@ -30,14 +43,9 @@
       {assign var=_expand_id value=10|mt_rand:100000}
       <div class="title clearfix hidden-md-up" data-target="#footer_sub_menu_{$_expand_id}" data-toggle="collapse">
         <span class="h3">{$linkBlock.title}</span>
-        <span class="float-xs-right">
-          <span class="navbar-toggler collapse-icons">
-            <i class="material-icons add">&#xE313;</i>
-            <i class="material-icons remove">&#xE316;</i>
-          </span>
-        </span>
+        
       </div>
-      <ul id="footer_sub_menu_{$_expand_id}" class="collapse">
+      <ul id="footer_sub_menu_{$_expand_id}" class="collapse show in">
         {foreach $linkBlock.links as $link}
           <li>
             <a

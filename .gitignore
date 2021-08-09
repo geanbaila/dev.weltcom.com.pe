@@ -2,3 +2,5 @@ var/cache/dev/*
 var/cache/prod/*
 var/sessions/*
 var/logs/*
+*/error_log
+error_log

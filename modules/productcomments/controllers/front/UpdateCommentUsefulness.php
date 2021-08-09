@@ -32,53 +32,68 @@ class ProductCommentsUpdateCommentUsefulnessModuleFrontController extends Module
 {
     public function display()
     {
+        header('Content-Type: application/json');
+
         if (!Configuration::get('PRODUCT_COMMENTS_USEFULNESS')) {
-            $this->ajaxRender(json_encode([
-                'success' => false,
-                'error' => $this->trans('This feature is not enabled.', [], 'Modules.Productcomments.Shop'),
-            ]));
+            $this->ajaxRender(
+                json_encode(
+                    [
+                        'success' => false,
+                        'error' => $this->trans('This feature is not enabled.', [], 'Modules.Productcomments.Shop'),
+                    ]
+                )
+            );
 
             return false;
         }
 
         $customerId = (int) $this->context->cookie->id_customer;
         if (!$customerId) {
-            $this->ajaxRender(json_encode([
-                'success' => false,
-                'error' => $this->trans(
-                    'You need to be [1]logged in[/1] or [2]create an account[/2] to give your appreciation of a review.',
+            $this->ajaxRender(
+                json_encode(
                     [
-                        '[1]' => '<a href="' . $this->context->link->getPageLink('my-account') . '">',
-                        '[/1]' => '</a>',
-                        '[2]' => '<a href="' . $this->context->link->getPageLink('authentication&create_account=1') . '">',
-                        '[/2]' => '</a>',
-                    ],
-                    'Modules.Productcomments.Shop'
-                ),
-            ]));
+                        'success' => false,
+                        'error' => $this->trans(
+                            'You need to be [1]logged in[/1] or [2]create an account[/2] to give your appreciation of a review.',
+                            [
+                                '[1]' => '<a href="' . $this->context->link->getPageLink('my-account') . '">',
+                                '[/1]' => '</a>',
+                                '[2]' => '<a href="' . $this->context->link->getPageLink('authentication&create_account=1') . '">',
+                                '[/2]' => '</a>',
+                            ],
+                            'Modules.Productcomments.Shop'
+                        ),
+                    ]
+                )
+            );
 
             return false;
         }
 
         $id_product_comment = (int) Tools::getValue('id_product_comment');
-        $usefulness = (int) Tools::getValue('usefulness');
+        $usefulness = (bool) Tools::getValue('usefulness');
 
         /** @var EntityManagerInterface $entityManager */
         $entityManager = $this->container->get('doctrine.orm.entity_manager');
-        $productCommentEntityRepository = $entityManager->getRepository(ProductComment::class);
 
-        $productComment = $productCommentEntityRepository->findOneById($id_product_comment);
+        $productCommentEntityRepository = $entityManager->getRepository(ProductComment::class);
+        /** @var ProductComment|null $productComment */
+        $productComment = $productCommentEntityRepository->findOneBy(['id' => $id_product_comment]);
         if (!$productComment) {
-            $this->ajaxRender(json_encode([
-                'success' => false,
-                'error' => $this->trans('Cannot find the requested product review.', [], 'Modules.Productcomments.Shop'),
-            ]));
+            $this->ajaxRender(
+                json_encode(
+                    [
+                        'success' => false,
+                        'error' => $this->trans('Cannot find the requested product review.', [], 'Modules.Productcomments.Shop'),
+                    ]
+                )
+            );
 
             return false;
         }
 
         $productCommentUsefulnesRepository = $entityManager->getRepository(ProductCommentUsefulness::class);
-        /** @var ProductCommentUsefulness $productCommentUsefulness */
+        /** @var ProductCommentUsefulness|null $productCommentUsefulness */
         $productCommentUsefulness = $productCommentUsefulnesRepository->findOneBy([
             'comment' => $id_product_comment,
             'customerId' => $customerId,
@@ -100,9 +115,16 @@ class ProductCommentsUpdateCommentUsefulnessModuleFrontController extends Module
         $productCommentRepository = $this->context->controller->getContainer()->get('product_comment_repository');
         $commentUsefulness = $productCommentRepository->getProductCommentUsefulness($id_product_comment);
 
-        $this->ajaxRender(json_encode(array_merge([
-            'success' => true,
-            'id_product_comment' => $id_product_comment,
-        ], $commentUsefulness)));
+        $this->ajaxRender(
+            json_encode(
+                array_merge(
+                    [
+                        'success' => true,
+                        'id_product_comment' => $id_product_comment,
+                    ],
+                    $commentUsefulness
+                )
+            )
+        );
     }
 }
